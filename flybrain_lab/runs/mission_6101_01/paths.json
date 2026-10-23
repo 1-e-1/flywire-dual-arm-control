@@ -1,0 +1,471 @@
+[
+  {
+    "start": [
+      -1.6150470437842568,
+      0.6824289448387961,
+      0.0049957006010767835,
+      -0.39876257343158517,
+      0.47423270868927725,
+      1.585774691624257,
+      -0.7666064818812797,
+      1.660522362376915,
+      1.6528285012383912,
+      -0.33595727017532134,
+      -0.11965319682626381,
+      -1.7198519027569612,
+      -0.44793662230027625,
+      -0.8010071526445782,
+      1.0200530538880357,
+      -2.016916129256058
+    ],
+    "end": [
+      -1.66732023393789,
+      0.6964607994444483,
+      -0.03126283282266726,
+      -0.3985366290654261,
+      0.449547352652044,
+      1.5719159337718003,
+      -0.7722516535885467,
+      1.654347548857207,
+      1.6528285012383912,
+      -0.33595727017532134,
+      -0.11965319682626381,
+      -1.7198519027569612,
+      -0.44793662230027625,
+      -0.8010071526445782,
+      1.0200530538880357,
+      -2.016916129256058
+    ],
+    "duration_s": 1.2,
+    "time_s": 0.0,
+    "target": [
+      0.6359392181283251,
+      -0.4454860984823732,
+      0.8336321764487474
+    ],
+    "standoff_m": 0.21636717896652902,
+    "map_revision": 1482,
+    "environment_certificate": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1482,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "robot_certificate": true,
+    "phase": "visual_acquisition_right_rest",
+    "operational_visual_sufficiency_required": false,
+    "endpoint_operational_visual_set_passed": true,
+    "visual_certificate": {
+      "allowed": null,
+      "scope": "No operational whole-segment visual claim during acquisition; fresh feedback required"
+    },
+    "visual_target_name": "washer",
+    "visual_target_position": [
+      0.6359392181283251,
+      -0.4454860984823732,
+      0.8336321764487474
+    ],
+    "scope": "Measured sensing-only acquisition; execution arm does not move",
+    "execution_refresh": {
+      "attempt": 1,
+      "requested_wall_s": 97142.162936,
+      "execution_wall_s": 97142.2182735,
+      "target": "washer",
+      "next_sensor_request": 4,
+      "target_age_s": 0.05533800000557676,
+      "raw_age_s": 0.055341500003123656,
+      "visual": null,
+      "scope": "Fresh ROI plus unchanged geometry revisions; no map integration during execution refresh"
+    }
+  },
+  {
+    "start": [
+      -1.6673202339378903,
+      0.6964607994444483,
+      -0.03126283282266734,
+      -0.3985366290654261,
+      0.44954735265204393,
+      1.5719159337718003,
+      -0.7722516535885467,
+      1.654347548857207,
+      1.6528285012383912,
+      -0.33595727017532134,
+      -0.11965319682626381,
+      -1.7198519027569612,
+      -0.44793662230027625,
+      -0.8010071526445782,
+      1.0200530538880357,
+      -2.016916129256058
+    ],
+    "end": [
+      -1.6437767716671299,
+      0.6405475968231183,
+      -0.102498611654504,
+      -0.4859961371024991,
+      0.3386047416251069,
+      1.6061003394193976,
+      -0.7797755446269722,
+      1.6198010188436038,
+      1.618909731959609,
+      -0.36917234561566736,
+      -0.1452912647115172,
+      -1.7142360742373712,
+      -0.4642820408782015,
+      -0.773765356812157,
+      0.9836266806470098,
+      -1.9997892923267522
+    ],
+    "duration_s": 1.2,
+    "time_s": 1.2,
+    "target": [
+      0.6364751823258739,
+      -0.4465469950146324,
+      0.8336780396722138
+    ],
+    "standoff_m": 0.1,
+    "map_revision": 1484,
+    "environment_certificate": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 5,
+      "minimum_slack_m": 0.0,
+      "revision": 1484,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual_certificate": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 37,
+      "leaves": 19,
+      "minimum_margin": 0.0008216437073447769,
+      "wall_s": 0.0071857000002637506,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_certificate": true,
+    "visual_target_name": "washer",
+    "visual_target_position": [
+      0.6364751823258739,
+      -0.4465469950146324,
+      0.8336780396722138
+    ],
+    "controller": "flywire_direct",
+    "scope": "Neural joint proposal; original continuous RGBD safety gates",
+    "execution_refresh": {
+      "attempt": 1,
+      "requested_wall_s": 97144.4220747,
+      "execution_wall_s": 97144.4836818,
+      "target": "washer",
+      "next_sensor_request": 25,
+      "target_age_s": 0.06160779998754151,
+      "raw_age_s": 0.06161059999431018,
+      "visual": {
+        "allowed": true,
+        "reason": "whole_segment_geometric_proxy",
+        "boxes": 35,
+        "leaves": 18,
+        "minimum_margin": 2.0702267058969603e-06,
+        "wall_s": 0.006684599997242913,
+        "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+      },
+      "scope": "Fresh ROI plus unchanged geometry revisions; no map integration during execution refresh"
+    },
+    "execution_visual_target_position": [
+      0.6365346302683621,
+      -0.44646856277469893,
+      0.8336677805737935
+    ]
+  },
+  {
+    "start": [
+      -1.6437767716671299,
+      0.6405475968231182,
+      -0.10249861165450415,
+      -0.48599613710249934,
+      0.3386047416251067,
+      1.6061003394193976,
+      -0.7797755446269722,
+      1.6198010188436038,
+      1.618909731959609,
+      -0.3691723456156674,
+      -0.14529126471151727,
+      -1.7142360742373712,
+      -0.4642820408782016,
+      -0.7737653568121569,
+      0.9836266806470096,
+      -1.9997892923267522
+    ],
+    "end": [
+      -1.6319306515708332,
+      0.5825434738891768,
+      -0.18035294798471424,
+      -0.5593695057939536,
+      0.2572902241404752,
+      1.6329373647805012,
+      -0.7784089875272083,
+      1.651657323122526,
+      1.5644259538309155,
+      -0.43352532485352946,
+      -0.15826119465854274,
+      -1.6703993513386801,
+      -0.4811631559411022,
+      -0.7308605967265194,
+      0.9580612605254597,
+      -2.0067845637066597
+    ],
+    "duration_s": 1.2,
+    "time_s": 2.399999999999995,
+    "target": [
+      0.6362194326375895,
+      -0.44599176506079585,
+      0.8336475374714842
+    ],
+    "standoff_m": 0.1,
+    "map_revision": 1486,
+    "environment_certificate": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 5,
+      "minimum_slack_m": 0.0,
+      "revision": 1486,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual_certificate": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 9,
+      "leaves": 5,
+      "minimum_margin": 0.0011785537917452515,
+      "wall_s": 0.0017813000013120472,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_certificate": true,
+    "visual_target_name": "washer",
+    "visual_target_position": [
+      0.6362194326375895,
+      -0.44599176506079585,
+      0.8336475374714842
+    ],
+    "controller": "flywire_direct",
+    "scope": "Neural joint proposal; original continuous RGBD safety gates",
+    "execution_refresh": {
+      "attempt": 1,
+      "requested_wall_s": 97146.6617263,
+      "execution_wall_s": 97146.7186543,
+      "target": "washer",
+      "next_sensor_request": 46,
+      "target_age_s": 0.056928600009996444,
+      "raw_age_s": 0.056931200000690296,
+      "visual": {
+        "allowed": true,
+        "reason": "whole_segment_geometric_proxy",
+        "boxes": 9,
+        "leaves": 5,
+        "minimum_margin": 0.0012266317457401144,
+        "wall_s": 0.0016673000063747168,
+        "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+      },
+      "scope": "Fresh ROI plus unchanged geometry revisions; no map integration during execution refresh"
+    },
+    "execution_visual_target_position": [
+      0.63623715365405,
+      -0.4460987450049288,
+      0.833650363544771
+    ]
+  },
+  {
+    "start": [
+      -1.6319306515708332,
+      0.5825434738891767,
+      -0.1803529479847144,
+      -0.5593695057939538,
+      0.25729022414047503,
+      1.6329373647805012,
+      -0.7784089875272083,
+      1.651657323122526,
+      1.5644259538309153,
+      -0.43352532485352957,
+      -0.15826119465854277,
+      -1.6703993513386801,
+      -0.48116315594110226,
+      -0.7308605967265193,
+      0.9580612605254597,
+      -2.0067845637066597
+    ],
+    "end": [
+      -1.630926339086348,
+      0.5674611671590428,
+      -0.20123745364954398,
+      -0.5755744186566277,
+      0.24077151533165483,
+      1.6425374431611648,
+      -0.7771302517437381,
+      1.66784243930309,
+      1.5500948470539848,
+      -0.45538874816660824,
+      -0.16165466804481132,
+      -1.653509105413832,
+      -0.4843838181388519,
+      -0.7163247921438255,
+      0.9519327852860885,
+      -2.0115338780161958
+    ],
+    "duration_s": 1.2,
+    "time_s": 3.59999999999999,
+    "target": [
+      0.6364940871407719,
+      -0.4462694312494594,
+      0.8336796562533262
+    ],
+    "standoff_m": 0.1,
+    "map_revision": 1488,
+    "environment_certificate": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1488,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual_certificate": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 3,
+      "leaves": 2,
+      "minimum_margin": 0.013640523834015483,
+      "wall_s": 0.0006657999911112711,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_certificate": true,
+    "visual_target_name": "washer",
+    "visual_target_position": [
+      0.6364940871407719,
+      -0.4462694312494594,
+      0.8336796562533262
+    ],
+    "controller": "flywire_direct",
+    "scope": "Neural joint proposal; original continuous RGBD safety gates",
+    "execution_refresh": {
+      "attempt": 1,
+      "requested_wall_s": 97148.941386,
+      "execution_wall_s": 97148.9980658,
+      "target": "washer",
+      "next_sensor_request": 67,
+      "target_age_s": 0.0566804999980377,
+      "raw_age_s": 0.056683399991015904,
+      "visual": {
+        "allowed": true,
+        "reason": "whole_segment_geometric_proxy",
+        "boxes": 3,
+        "leaves": 2,
+        "minimum_margin": 0.01379482064769566,
+        "wall_s": 0.0005387999990489334,
+        "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+      },
+      "scope": "Fresh ROI plus unchanged geometry revisions; no map integration during execution refresh"
+    },
+    "execution_visual_target_position": [
+      0.6364724696577404,
+      -0.44638231515252097,
+      0.8337070858113846
+    ]
+  },
+  {
+    "start": [
+      -1.630926339086348,
+      0.5674611671590428,
+      -0.20123745364954404,
+      -0.5755744186566277,
+      0.2407715153316548,
+      1.6425374431611648,
+      -0.7771302517437381,
+      1.66784243930309,
+      1.5500948470539848,
+      -0.4553887481666083,
+      -0.16165466804481132,
+      -1.653509105413832,
+      -0.4843838181388519,
+      -0.7163247921438255,
+      0.9519327852860885,
+      -2.0115338780161958
+    ],
+    "end": [
+      -1.6304833873001319,
+      0.5599881094026802,
+      -0.21179737077290003,
+      -0.5835154878466542,
+      0.2326551161136345,
+      1.6477655081639233,
+      -0.7761970667211753,
+      1.6764236078398764,
+      1.543095619160258,
+      -0.4667448468920214,
+      -0.16348322443503643,
+      -1.6447574479989768,
+      -0.4858936547499788,
+      -0.7086901024393338,
+      0.948795904869672,
+      -2.0140012936699208
+    ],
+    "duration_s": 1.2,
+    "time_s": 4.799999999999985,
+    "target": [
+      0.6367169262676085,
+      -0.44619072542030236,
+      0.833717275884498
+    ],
+    "standoff_m": 0.1,
+    "map_revision": 1490,
+    "environment_certificate": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1490,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual_certificate": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 1,
+      "leaves": 1,
+      "minimum_margin": 0.0003548458062499482,
+      "wall_s": 0.0001584999990882352,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_certificate": true,
+    "visual_target_name": "washer",
+    "visual_target_position": [
+      0.6367169262676085,
+      -0.44619072542030236,
+      0.833717275884498
+    ],
+    "controller": "flywire_direct",
+    "scope": "Neural joint proposal; original continuous RGBD safety gates",
+    "execution_refresh": {
+      "attempt": 1,
+      "requested_wall_s": 97151.2863757,
+      "execution_wall_s": 97151.3429629,
+      "target": "washer",
+      "next_sensor_request": 88,
+      "target_age_s": 0.056587700004456565,
+      "raw_age_s": 0.056590399995911866,
+      "visual": {
+        "allowed": true,
+        "reason": "whole_segment_geometric_proxy",
+        "boxes": 1,
+        "leaves": 1,
+        "minimum_margin": 0.000289737336033824,
+        "wall_s": 0.0001438000035705045,
+        "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+      },
+      "scope": "Fresh ROI plus unchanged geometry revisions; no map integration during execution refresh"
+    },
+    "execution_visual_target_position": [
+      0.6368472081337232,
+      -0.4460625406080244,
+      0.8337004564603367
+    ]
+  }
+]

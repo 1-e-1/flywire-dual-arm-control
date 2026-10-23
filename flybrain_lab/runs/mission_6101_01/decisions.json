@@ -1,0 +1,110 @@
+[
+  {
+    "status": "OPERATIONAL_VIEW_ACQUISITION_PROPOSAL",
+    "time_s": 0.0,
+    "index": 0,
+    "rejections": [],
+    "kind": "visual_margin_QP",
+    "result": "accepted"
+  },
+  {
+    "time_s": 1.2,
+    "proposal_mode": "flywire_direct",
+    "scale": 1.0,
+    "environment": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 5,
+      "minimum_slack_m": 0.0,
+      "revision": 1484,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 37,
+      "leaves": 19,
+      "minimum_margin": 0.0008216437073447769,
+      "wall_s": 0.0071857000002637506,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_geometry": true,
+    "visual_endpoint_reserve_passed": true,
+    "inference_and_setup_s": 0.11697000000276603
+  },
+  {
+    "time_s": 2.399999999999995,
+    "proposal_mode": "flywire_direct",
+    "scale": 1.0,
+    "environment": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 5,
+      "minimum_slack_m": 0.0,
+      "revision": 1486,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 9,
+      "leaves": 5,
+      "minimum_margin": 0.0011785537917452515,
+      "wall_s": 0.0017813000013120472,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_geometry": true,
+    "visual_endpoint_reserve_passed": true,
+    "inference_and_setup_s": 0.11471419999725185
+  },
+  {
+    "time_s": 3.59999999999999,
+    "proposal_mode": "flywire_direct",
+    "scale": 0.25,
+    "environment": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1488,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 3,
+      "leaves": 2,
+      "minimum_margin": 0.013640523834015483,
+      "wall_s": 0.0006657999911112711,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_geometry": true,
+    "visual_endpoint_reserve_passed": true,
+    "inference_and_setup_s": 0.13300310001068283
+  },
+  {
+    "time_s": 4.799999999999985,
+    "proposal_mode": "flywire_direct",
+    "scale": 0.125,
+    "environment": {
+      "allowed": true,
+      "reason": "measured_chord_sweep",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1490,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    "visual": {
+      "allowed": true,
+      "reason": "whole_segment_geometric_proxy",
+      "boxes": 1,
+      "leaves": 1,
+      "minimum_margin": 0.0003548458062499482,
+      "wall_s": 0.0001584999990882352,
+      "scope": "continuous_geometric_visual_proxy_fixed_target_not_occlusion"
+    },
+    "robot_geometry": true,
+    "visual_endpoint_reserve_passed": true,
+    "inference_and_setup_s": 0.11329490000207443
+  }
+]

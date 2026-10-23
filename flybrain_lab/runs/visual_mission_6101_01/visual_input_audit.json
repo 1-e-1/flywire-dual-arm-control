@@ -1,0 +1,28 @@
+{
+  "frames": [
+    {
+      "packet_id": 1,
+      "stamp": 0.0,
+      "shape": [
+        480,
+        848
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.05209039998590015
+    },
+    {
+      "packet_id": 2,
+      "stamp": 0.0,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03125559999898542
+    }
+  ],
+  "commissioning_neural_frames": 8,
+  "total_neural_frames": 10,
+  "accepted_frames": 2,
+  "scope": "Every frame accepted by controller; sensor latest-frame transport may drop frames before delivery; no point-cloud encoder"
+}

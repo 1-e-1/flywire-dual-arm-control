@@ -1,0 +1,82 @@
+{
+  "processed_frames": 9075,
+  "train_acquisition_samples": 805,
+  "train_travel_samples": 220,
+  "validation_acquisition_samples": 314,
+  "validation_travel_samples": 104,
+  "updates": 1000,
+  "selected": {
+    "epoch": 200,
+    "invalid_validation_views": 183,
+    "restored": 100,
+    "already_valid": 131,
+    "valid_preserved": 120,
+    "joint_rmse_rad": 0.022630778897587116
+  },
+  "candidates": [
+    {
+      "epoch": 0,
+      "invalid_validation_views": 183,
+      "restored": 36,
+      "already_valid": 131,
+      "valid_preserved": 107,
+      "joint_rmse_rad": 0.02124870997631807
+    },
+    {
+      "epoch": 200,
+      "invalid_validation_views": 183,
+      "restored": 100,
+      "already_valid": 131,
+      "valid_preserved": 120,
+      "joint_rmse_rad": 0.022630778897587116
+    },
+    {
+      "epoch": 400,
+      "invalid_validation_views": 183,
+      "restored": 95,
+      "already_valid": 131,
+      "valid_preserved": 118,
+      "joint_rmse_rad": 0.02424219120239846
+    },
+    {
+      "epoch": 600,
+      "invalid_validation_views": 183,
+      "restored": 89,
+      "already_valid": 131,
+      "valid_preserved": 113,
+      "joint_rmse_rad": 0.027188317479262012
+    },
+    {
+      "epoch": 800,
+      "invalid_validation_views": 183,
+      "restored": 71,
+      "already_valid": 131,
+      "valid_preserved": 101,
+      "joint_rmse_rad": 0.030923552707267443
+    },
+    {
+      "epoch": 1000,
+      "invalid_validation_views": 183,
+      "restored": 56,
+      "already_valid": 131,
+      "valid_preserved": 111,
+      "joint_rmse_rad": 0.027719386374646375
+    }
+  ],
+  "sources": [
+    {
+      "run": "reports/rgbd_quality_handover_regression_6101_01",
+      "observations_sha256": "d44c7e2da01d3b41232ef3a5b213c88c14655f44f69d741bde6d91cfceff4851"
+    },
+    {
+      "run": "reports/rgbd_capacity_repair_82007_set_01",
+      "observations_sha256": "a1ae144ec0cb05567defd6bb215af45e881d02359e1fc7086591e70a47528eda"
+    },
+    {
+      "run": "reports/rgbd_quality_control_82015_off_01",
+      "observations_sha256": "4edbb56fec60e7b9c64db138d66af9cb12b58e8016470c5c0c516b37aff9b4b6"
+    }
+  ],
+  "elapsed_s": 561.373582699991,
+  "scope": "Real measured-frame curriculum; view endpoint proxy validation, NOT collision certificate or full-task success; no online teacher fallback"
+}

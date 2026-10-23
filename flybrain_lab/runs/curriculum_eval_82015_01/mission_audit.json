@@ -1,0 +1,37 @@
+{
+  "scope": "Post-execution actual simulation geometry/count only; never passed to planner",
+  "actual_scene_object_count": 2,
+  "actual_scene_objects": [
+    "bolt",
+    "washer"
+  ],
+  "objects": [],
+  "paths": [
+    {
+      "time_s": 0.0,
+      "phase": "approach",
+      "payload": null,
+      "allowed": true
+    },
+    {
+      "time_s": 1.2,
+      "phase": "approach",
+      "payload": null,
+      "allowed": true
+    }
+  ],
+  "all_continuous_geometry_passed": true,
+  "terminal_C2_rest": true,
+  "all_logged_wrenches_checked": true,
+  "wrench_samples_checked": 144,
+  "maximum_logged_wrench_reference_error": 5.068129869528759e-07,
+  "wrench_crosscheck_passed": true,
+  "audited_released_and_retreated_objects": [],
+  "scene_all_objects_delivered_audited": false,
+  "controller_observed_queue_exhausted": false,
+  "limitations": [
+    "Simulation collision solids, not hardware metrology",
+    "External contact impulses and excluded inertias remain excluded",
+    "Queue exhaustion alone is not actual scene completion"
+  ]
+}

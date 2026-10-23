@@ -1,0 +1,36 @@
+{
+  "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "files": [
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/LICENSE",
+      "bytes": 1085,
+      "sha256": "3621f6d6476189190e2960fa43f11b275ba4eca848fdac50a1ba2925de6223e8"
+    },
+    {
+      "file": "Readme.md",
+      "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/Readme.md",
+      "bytes": 3617,
+      "sha256": "0654ac53f9af85000b50f6a5d2297aade8602c507a44e811f8aff602629c2625"
+    },
+    {
+      "file": "model.py",
+      "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py",
+      "bytes": 11900,
+      "sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e"
+    },
+    {
+      "file": "Completeness_783.csv",
+      "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/Completeness_783.csv",
+      "bytes": 3327347,
+      "sha256": "bbb847a4cc2caaa7a16349722d220c087317b946d148d4d592d94d250617a311"
+    },
+    {
+      "file": "Connectivity_783.parquet",
+      "url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/Connectivity_783.parquet",
+      "bytes": 100804642,
+      "sha256": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+    }
+  ],
+  "source": "Paper authors: philshiu/Drosophila_brain_model; public FlyWire v783"
+}

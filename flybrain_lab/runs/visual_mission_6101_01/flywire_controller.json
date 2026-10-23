@@ -1,0 +1,15 @@
+{
+  "events": [],
+  "profile": {
+    "type": "direct_full_supplied_flywire_rate_circuit",
+    "controller_class": "VisualController",
+    "camera_stream_input": true,
+    "checkpoint_sha256": "7045dfc69b28692c04259e86c6d0ada9b8bc59873d1c430291fddf79dbac578a",
+    "neurons": 138639,
+    "edges": 15091983,
+    "no_classical_motion_proposal_fallback": true,
+    "visual_schema": 2,
+    "retina": "96x54x8, lossy area pooling of all delivered pixels"
+  },
+  "scope": "Circuit proposes all approach/travel/recovery joint actions; classical perception, state machine, safety braking retained"
+}

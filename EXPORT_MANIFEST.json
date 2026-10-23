@@ -1,0 +1,2723 @@
+{
+  "date": "2026-10-24",
+  "owner": "1-e-1",
+  "method": "FlyWire v783 signed-topology reservoir and learned readout for dual-arm control",
+  "files": [
+    {
+      "path": "flybrain_lab/CURRICULUM_TRAINING.md",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/CURRICULUM_TRAINING.md",
+      "sha256_original": "1b5f1eea47574e770eeca9047ba4b013b33cc8930d54d1a4304aa586a9ef033c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/README.md",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/README.md",
+      "sha256_original": "9564cfee3fca61db507769d68afaae1e40cc7b4395c87f25d982d88947cda5e9",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/check_visual_ablation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/check_visual_ablation.py",
+      "sha256_original": "416ae638b464c713e5adab76cdf3611d688ad547cffd1848bc4d00587f2e03fd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/connectome.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/connectome.py",
+      "sha256_original": "c4c65d67aa23729624baf2a6c89d6f8a0c776269dcff820a7376faf809e574b6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/curriculum_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/curriculum_circuit.py",
+      "sha256_original": "a52e567258ad0e5d076f05a22015d81048133dcf0ccc8fb43fa39fadcfab0a50",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/curriculum_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/curriculum_mission.py",
+      "sha256_original": "111381642607d188b1a258fbe940788272f82081f86e395744c336eb0848e44e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/fetch_connectome.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/fetch_connectome.py",
+      "sha256_original": "392976dcc8e20fd9a69e6bbe7b330f096677d2cc5a3a7b5649ff367568c85fc4",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/mission.py",
+      "sha256_original": "d5a71a481156f2769d2f176f5f95b94397539b0e1bcd46240cab3b8aa386af8f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/progress_curriculum_01.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/progress_curriculum_01.json",
+      "sha256_original": "da63993715700a678e01685f99499d2452f5ee55ffd89d9c6744e0c7172182b7",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/progress_v3.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/progress_v3.json",
+      "sha256_original": "d48fb5074cd25b14f7993ecaa232572893af6431bd969750b68dd73ce5096feb",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/run_complete_observation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/run_complete_observation.py",
+      "sha256_original": "649639e93e81ce465b821bdacd4f9d55c917bd295e23146741c6f341c59b1f18",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/run_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/run_curriculum.py",
+      "sha256_original": "a2f76792e6dae3d31414b78bda09d86b8fb13445014faf81dfeae5ca0a0aa842",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/bootstrap_01/training.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/bootstrap_01/training.json",
+      "sha256_original": "eb0bb4b53427414ae14be3d7139982b2390915f15689da839b2cbed3d8e8f254",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_01/progress.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_01/progress.json",
+      "sha256_original": "c75156d99f1631a3a5db091e3a6b13b16aa6113cda9c19e62474ca624bc93d85",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_01/training.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_01/training.json",
+      "sha256_original": "d17f8048468ed8bbc11245b373bb612a411370e71bc579d2013f9bcc122637d2",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_01/witnesses.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_01/witnesses.json",
+      "sha256_original": "47715b54e74b41c1c85f0115a3b8ef3a2bd94c010f2b03066c397941080584ea",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/actuation_events.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/actuation_events.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/check_visual_ablation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/check_visual_ablation.py",
+      "sha256_original": "416ae638b464c713e5adab76cdf3611d688ad547cffd1848bc4d00587f2e03fd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/commissioning/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/commissioning/measured_surface.json",
+      "sha256_original": "86735c5db6d303ce2591fa7a5384f7a49e9e2a296c519f36b74e803de2e45b98",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/commissioning/recording.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/commissioning/recording.json",
+      "sha256_original": "b2f5d10bb14e7a6f76d8ffea9e7d37a20093b0944298fe1b4f872c2750c5137a",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/commissioning/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/commissioning/result.json",
+      "sha256_original": "09f486212ddbf2b2cef34ce04d8d4504248b7f7daf21bfc7b0d0c5852381cffa",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/connectome.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/connectome.py",
+      "sha256_original": "c4c65d67aa23729624baf2a6c89d6f8a0c776269dcff820a7376faf809e574b6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/contact_permits.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/contact_permits.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/curriculum_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/curriculum_circuit.py",
+      "sha256_original": "a52e567258ad0e5d076f05a22015d81048133dcf0ccc8fb43fa39fadcfab0a50",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/curriculum_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/curriculum_mission.py",
+      "sha256_original": "111381642607d188b1a258fbe940788272f82081f86e395744c336eb0848e44e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/decisions.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/decisions.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/fetch_connectome.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/fetch_connectome.py",
+      "sha256_original": "392976dcc8e20fd9a69e6bbe7b330f096677d2cc5a3a7b5649ff367568c85fc4",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/flywire_controller.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/flywire_controller.json",
+      "sha256_original": "ddf59c4c1c4baf41f131a8f8536aefeae84704388666a56037c286df9c94de9b",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/measured_surface.json",
+      "sha256_original": "c9bce3ea61f86e5f495f9fb98401ba13ddfb947eadb6394e5b5b6da6fa2ed6ae",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/mission.py",
+      "sha256_original": "d5a71a481156f2769d2f176f5f95b94397539b0e1bcd46240cab3b8aa386af8f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/mission_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/mission_audit.json",
+      "sha256_original": "97e0a0f5a576185787ba94a014c5848a4b0dac39b62caf6a0fc0513d16ae8930",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/observations.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/observations.json",
+      "sha256_original": "945700ee47af5d8caad1cf4264bd8b51436f52790e30820d81a67c6df4178f79",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/paths.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/paths.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/result.json",
+      "sha256_original": "fd8456218d1112d7f67b755cc59080c55d51ca35ac30e6f39d090345c6ba823a",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/run_complete_observation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/run_complete_observation.py",
+      "sha256_original": "649639e93e81ce465b821bdacd4f9d55c917bd295e23146741c6f341c59b1f18",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/run_configuration.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/run_configuration.json",
+      "sha256_original": "aadf6aa681356565656feda369a9b962bff77d85ce8aa549ae2f0989f9241157",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/run_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/run_curriculum.py",
+      "sha256_original": "a2f76792e6dae3d31414b78bda09d86b8fb13445014faf81dfeae5ca0a0aa842",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/setup_runtime.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/setup_runtime.py",
+      "sha256_original": "8abdc77b528dd90665d9cad53a194c5f7e1fa1e3e3ae4f3f51e5a1c7e5bdb636",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/source_manifest.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/source_manifest.json",
+      "sha256_original": "5670f1b65779b919284d91efd734870b8eafbacda78cf3680bbaa21195fb17f2",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/steps.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/steps.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/task_request.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/task_request.json",
+      "sha256_original": "f995af886bfb8f6f4771b5a093e2f05a965fddb8c8446f720f5f73f984d04c7c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/test_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/test_circuit.py",
+      "sha256_original": "c533eeeecc7fc8443b9257962729dbb0b702fd4367445c00df2dd994c3ae93ff",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/test_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/test_curriculum.py",
+      "sha256_original": "7525285d8025754741542fd35bad30f4249845ded7046116cafd58d342c4ab1f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/test_visual_input.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/test_visual_input.py",
+      "sha256_original": "e879042471e62d68540f21055998c8ebf08be328592ab496cf2faba7c4dce4ac",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/train.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/train.py",
+      "sha256_original": "8b32c82eef3abb288dc473bc0a7da3d248d1500ce096b59432a93b4a6e3ca6ec",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/train_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/train_curriculum.py",
+      "sha256_original": "9bc8eeec5b42d25f7dccdc2d65f6be0d6430062d8f96f3d530be8ef936331aaf",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/train_visual.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/train_visual.py",
+      "sha256_original": "b6138ef03c77e0dd5503e9f90fd96dabac68f7f04d8edb7e15cce69490af6230",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/visual_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/visual_circuit.py",
+      "sha256_original": "3137db3d0fb1f326e70c42b3c1611829eaafc8c85de1a9f40e4f0ce7d8aa81a6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/visual_input_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/visual_input_audit.json",
+      "sha256_original": "bfdc1ca3a6edea08b4fbfed57671a898e91a101db1f5bd11d45126fa75738e9e",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/visual_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/visual_mission.py",
+      "sha256_original": "7ac45e583d4206e687539b8354319b62954d38a1f3a2fdadff6ce89e4924faa1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_6101_01/wall_clock_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_6101_01/wall_clock_audit.json",
+      "sha256_original": "b99af7baf6a1a5c718fb9cc21cc0e7d9d3fa3271e0717c15185bea7c198329b9",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/actuation_events.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/actuation_events.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/check_visual_ablation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/check_visual_ablation.py",
+      "sha256_original": "416ae638b464c713e5adab76cdf3611d688ad547cffd1848bc4d00587f2e03fd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/commissioning/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/commissioning/measured_surface.json",
+      "sha256_original": "b7aa65cf020b157e2a39df29c03aa653e895a340f01fe3db6c457bf63a388dfe",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/commissioning/recording.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/commissioning/recording.json",
+      "sha256_original": "9547e1487074aec2da256813ffeba6837d9e5ba895e4a5f1355f7ab3d7083d09",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/commissioning/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/commissioning/result.json",
+      "sha256_original": "3bb9c40e6fc07101c599ebbc1641aca3804cbe33599e065876f504557d813dbb",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/connectome.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/connectome.py",
+      "sha256_original": "c4c65d67aa23729624baf2a6c89d6f8a0c776269dcff820a7376faf809e574b6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/contact_permits.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/contact_permits.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/curriculum_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/curriculum_circuit.py",
+      "sha256_original": "a52e567258ad0e5d076f05a22015d81048133dcf0ccc8fb43fa39fadcfab0a50",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/curriculum_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/curriculum_mission.py",
+      "sha256_original": "111381642607d188b1a258fbe940788272f82081f86e395744c336eb0848e44e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/decisions.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/decisions.json",
+      "sha256_original": "c524997cd543f04c61adf4df018075fd5e6c6b1e0d8e662707357aeeaaaf70f4",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/fetch_connectome.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/fetch_connectome.py",
+      "sha256_original": "392976dcc8e20fd9a69e6bbe7b330f096677d2cc5a3a7b5649ff367568c85fc4",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/flywire_controller.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/flywire_controller.json",
+      "sha256_original": "5cae4a86cb1b1e49b27fc5e7f29a91a6aed91eb5700477f1315528c4420839de",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/measured_surface.json",
+      "sha256_original": "fb75195d8026857f7a336418129abbc71ac2e479b16dcf102242150947bc6311",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/mission.py",
+      "sha256_original": "d5a71a481156f2769d2f176f5f95b94397539b0e1bcd46240cab3b8aa386af8f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/mission_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/mission_audit.json",
+      "sha256_original": "d5cb6e8ffec6c17c0f0d4fdf9991b4795c098b2b0a8beef480776e2fd0360abe",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/observations.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/observations.json",
+      "sha256_original": "067c0f25fd9173bfc84b19dc8e52c4687e55bf3735513300eb0d1b9bec1b6b6b",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/paths.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/paths.json",
+      "sha256_original": "43189cd01c475f8e16647e3e179357bcae2284bd50b69152749383c677581408",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/result.json",
+      "sha256_original": "e5b8cf62c09f97dced0d5dcd11b6621c6216a23345745d6b7e40f1cd792538c3",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/run_complete_observation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/run_complete_observation.py",
+      "sha256_original": "649639e93e81ce465b821bdacd4f9d55c917bd295e23146741c6f341c59b1f18",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/run_configuration.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/run_configuration.json",
+      "sha256_original": "92bf0c03efbe46d843346ac28ac0fbad516fe85d8db4a915b0d20eeff04707e5",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/run_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/run_curriculum.py",
+      "sha256_original": "a2f76792e6dae3d31414b78bda09d86b8fb13445014faf81dfeae5ca0a0aa842",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/setup_runtime.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/setup_runtime.py",
+      "sha256_original": "8abdc77b528dd90665d9cad53a194c5f7e1fa1e3e3ae4f3f51e5a1c7e5bdb636",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/source_manifest.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/source_manifest.json",
+      "sha256_original": "5670f1b65779b919284d91efd734870b8eafbacda78cf3680bbaa21195fb17f2",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/steps.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/steps.json",
+      "sha256_original": "0608c556dec6a4212b16f30e2c8af347102240da70610dd7b9012af5b550a30d",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/task_request.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/task_request.json",
+      "sha256_original": "f995af886bfb8f6f4771b5a093e2f05a965fddb8c8446f720f5f73f984d04c7c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/test_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/test_circuit.py",
+      "sha256_original": "c533eeeecc7fc8443b9257962729dbb0b702fd4367445c00df2dd994c3ae93ff",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/test_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/test_curriculum.py",
+      "sha256_original": "7525285d8025754741542fd35bad30f4249845ded7046116cafd58d342c4ab1f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/test_visual_input.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/test_visual_input.py",
+      "sha256_original": "e879042471e62d68540f21055998c8ebf08be328592ab496cf2faba7c4dce4ac",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/train.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/train.py",
+      "sha256_original": "8b32c82eef3abb288dc473bc0a7da3d248d1500ce096b59432a93b4a6e3ca6ec",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/train_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/train_curriculum.py",
+      "sha256_original": "9bc8eeec5b42d25f7dccdc2d65f6be0d6430062d8f96f3d530be8ef936331aaf",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/train_visual.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/train_visual.py",
+      "sha256_original": "b6138ef03c77e0dd5503e9f90fd96dabac68f7f04d8edb7e15cce69490af6230",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/visual_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/visual_circuit.py",
+      "sha256_original": "3137db3d0fb1f326e70c42b3c1611829eaafc8c85de1a9f40e4f0ce7d8aa81a6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/visual_input_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/visual_input_audit.json",
+      "sha256_original": "820867dd3c30f12e5c7c5fa8eefdb4407ebb547425c29a47bc69b661eb366c1a",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/visual_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/visual_mission.py",
+      "sha256_original": "7ac45e583d4206e687539b8354319b62954d38a1f3a2fdadff6ce89e4924faa1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/curriculum_eval_82015_01/wall_clock_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/curriculum_eval_82015_01/wall_clock_audit.json",
+      "sha256_original": "c813df92cb40d4704da0d985d69a0139d9e1f4a7dff439ef75376c5ef0d9abbf",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/actuation_events.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/actuation_events.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/commissioning/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/commissioning/measured_surface.json",
+      "sha256_original": "86735c5db6d303ce2591fa7a5384f7a49e9e2a296c519f36b74e803de2e45b98",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/commissioning/recording.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/commissioning/recording.json",
+      "sha256_original": "b2f5d10bb14e7a6f76d8ffea9e7d37a20093b0944298fe1b4f872c2750c5137a",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/commissioning/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/commissioning/result.json",
+      "sha256_original": "09f486212ddbf2b2cef34ce04d8d4504248b7f7daf21bfc7b0d0c5852381cffa",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/connectome.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/connectome.py",
+      "sha256_original": "c4c65d67aa23729624baf2a6c89d6f8a0c776269dcff820a7376faf809e574b6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/contact_permits.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/contact_permits.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/decisions.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/decisions.json",
+      "sha256_original": "0e2e720daa0d0a0c194feb5bd5e85fda009012300f7273f3ae831e5f06c3a832",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/flywire_controller.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/flywire_controller.json",
+      "sha256_original": "ec1d342340249e598b56d90637db5308a57e11ad4a285231f94e2614f62f6107",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/measured_surface.json",
+      "sha256_original": "5723542c6b32773a90f488570879f9d93dc448e97ecfb94e685bc3475ac164a8",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/mission.py",
+      "sha256_original": "8773e74e5b26f026d0d7f9a9c0e1fd997eceecbbc668aa36b0ae318f3f2163a3",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/observations.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/observations.json",
+      "sha256_original": "3fa7c6817b3503d363d251a97c4aca4030d47855c28ba370c9560760c178ef1b",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/paths.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/paths.json",
+      "sha256_original": "4433dae3a9ee67a946033a5bd4c7b36725926cf17e775a98f475713519afd7c5",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/result.json",
+      "sha256_original": "1652290b0a311adacc5a1a39706507c046709def9512dddf224c5b1c0f36f886",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/run_configuration.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/run_configuration.json",
+      "sha256_original": "40ccd08de3dda047fe72351f70acc3da7f56d51be128bfede8cb4b921d24d90a",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/source_manifest.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/source_manifest.json",
+      "sha256_original": "5670f1b65779b919284d91efd734870b8eafbacda78cf3680bbaa21195fb17f2",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/steps.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/steps.json",
+      "sha256_original": "65be78181d22670db0e2511e0b73d5c8353f8b77169dbded82bd29d7b99c84ca",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/task_request.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/task_request.json",
+      "sha256_original": "f995af886bfb8f6f4771b5a093e2f05a965fddb8c8446f720f5f73f984d04c7c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/mission_6101_01/train.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/mission_6101_01/train.py",
+      "sha256_original": "8b32c82eef3abb288dc473bc0a7da3d248d1500ce096b59432a93b4a6e3ca6ec",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_bootstrap_02/input_ablation.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_bootstrap_02/input_ablation.json",
+      "sha256_original": "0015c5b6aa46ab695f8d431c05f028f78125133ece5b17f3c865bbaab48e0238",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_bootstrap_02/training.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_bootstrap_02/training.json",
+      "sha256_original": "1286062f954a691078bf7ecee4f1536a7c2f16146b34d773bdd0d5ebafcd4e69",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_bootstrap_03/training.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_bootstrap_03/training.json",
+      "sha256_original": "2f65085840d4b7db0dbccd19ffb3daf864d117ca546519e7975ef54917a81d38",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/actuation_events.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/actuation_events.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/commissioning/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/commissioning/measured_surface.json",
+      "sha256_original": "86735c5db6d303ce2591fa7a5384f7a49e9e2a296c519f36b74e803de2e45b98",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/commissioning/recording.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/commissioning/recording.json",
+      "sha256_original": "b2f5d10bb14e7a6f76d8ffea9e7d37a20093b0944298fe1b4f872c2750c5137a",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/commissioning/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/commissioning/result.json",
+      "sha256_original": "09f486212ddbf2b2cef34ce04d8d4504248b7f7daf21bfc7b0d0c5852381cffa",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/contact_permits.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/contact_permits.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/decisions.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/decisions.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/flywire_controller.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/flywire_controller.json",
+      "sha256_original": "5ecda55c6cc5b085677d3f0f3879218f30203e9a307b37a2894d51526567f9fc",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/measured_surface.json",
+      "sha256_original": "c9bce3ea61f86e5f495f9fb98401ba13ddfb947eadb6394e5b5b6da6fa2ed6ae",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/mission.py",
+      "sha256_original": "8221e866881c9f0dad8256dc2f2029e9e697accf69d6cfea57a7398cbea7572b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/mission_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/mission_audit.json",
+      "sha256_original": "97e0a0f5a576185787ba94a014c5848a4b0dac39b62caf6a0fc0513d16ae8930",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/observations.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/observations.json",
+      "sha256_original": "0d93aa7bfd078c4f12f3931c9676f8af8e3f72e75d5ee599933473643096e2cb",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/paths.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/paths.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/result.json",
+      "sha256_original": "2d428a133987ac6f03c1c26e3e10ae062de2a318aa7d30fe0610245612f69ce5",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/run_configuration.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/run_configuration.json",
+      "sha256_original": "8e0456cb8fe203f5aa8ee332df0b7cdd78d8ec2a041d61bb4c229f95ff3f7954",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/source_manifest.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/source_manifest.json",
+      "sha256_original": "5670f1b65779b919284d91efd734870b8eafbacda78cf3680bbaa21195fb17f2",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/steps.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/steps.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/task_request.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/task_request.json",
+      "sha256_original": "f995af886bfb8f6f4771b5a093e2f05a965fddb8c8446f720f5f73f984d04c7c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/visual_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/visual_circuit.py",
+      "sha256_original": "479eb824bd6313e07a1c2119f923c18c5e81d5ae56350e3ff98d4c1b780fa6e0",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/visual_input_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/visual_input_audit.json",
+      "sha256_original": "e303b4555de9b0ab32f94ef7649cf8045909d5b2615303ed90e7b138ce04e7c4",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_01/visual_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_01/visual_mission.py",
+      "sha256_original": "69a7d5cf4846f1f5259659b0a72c3b451baab69d2f348e2f9333825011df15ec",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/actuation_events.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/actuation_events.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/commissioning/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/commissioning/measured_surface.json",
+      "sha256_original": "86735c5db6d303ce2591fa7a5384f7a49e9e2a296c519f36b74e803de2e45b98",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/commissioning/recording.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/commissioning/recording.json",
+      "sha256_original": "b2f5d10bb14e7a6f76d8ffea9e7d37a20093b0944298fe1b4f872c2750c5137a",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/commissioning/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/commissioning/result.json",
+      "sha256_original": "09f486212ddbf2b2cef34ce04d8d4504248b7f7daf21bfc7b0d0c5852381cffa",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/contact_permits.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/contact_permits.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/decisions.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/decisions.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/flywire_controller.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/flywire_controller.json",
+      "sha256_original": "1b293778475993fefecc64b058ac07c22928e1976cc9437c4dd2f54c3d94259f",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/measured_surface.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/measured_surface.json",
+      "sha256_original": "c9bce3ea61f86e5f495f9fb98401ba13ddfb947eadb6394e5b5b6da6fa2ed6ae",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/mission.py",
+      "sha256_original": "8221e866881c9f0dad8256dc2f2029e9e697accf69d6cfea57a7398cbea7572b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/mission_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/mission_audit.json",
+      "sha256_original": "97e0a0f5a576185787ba94a014c5848a4b0dac39b62caf6a0fc0513d16ae8930",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/observations.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/observations.json",
+      "sha256_original": "2a85e2ec0599df4724b0d2607a3e8c012ce94fd89aec5efe5748610a9dad0b50",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/paths.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/paths.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/result.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/result.json",
+      "sha256_original": "abfd8c19aec78eeb18ad95ed32e7bb9e5b3ba072023817ecac33e2743dec05c3",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/run_configuration.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/run_configuration.json",
+      "sha256_original": "ee2b573fbf82a7310055e68cf16efa717f90094ac19a773a7e02287125d96bd9",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/source_manifest.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/source_manifest.json",
+      "sha256_original": "5670f1b65779b919284d91efd734870b8eafbacda78cf3680bbaa21195fb17f2",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/steps.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/steps.json",
+      "sha256_original": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/task_request.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/task_request.json",
+      "sha256_original": "f995af886bfb8f6f4771b5a093e2f05a965fddb8c8446f720f5f73f984d04c7c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/visual_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/visual_circuit.py",
+      "sha256_original": "3137db3d0fb1f326e70c42b3c1611829eaafc8c85de1a9f40e4f0ce7d8aa81a6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/visual_input_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/visual_input_audit.json",
+      "sha256_original": "bea930cdc1c4d7f3aba37e2583ad7547d17b82ad0f869572af19f1d0097fe3cf",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/visual_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/visual_mission.py",
+      "sha256_original": "3f75b400a2a167fdfffa67201199a1f66f1f8d9911dc3ed99c5d298392380112",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runs/visual_mission_6101_02/wall_clock_audit.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runs/visual_mission_6101_02/wall_clock_audit.json",
+      "sha256_original": "b99af7baf6a1a5c718fb9cc21cc0e7d9d3fa3271e0717c15185bea7c198329b9",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/__init__.py",
+      "sha256_original": "6b1b08f22ce6e696230ea953b13a9aff9ef02cc7032ac3051b12e46c7761c5a1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/adaptive_planning_map.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/adaptive_planning_map.py",
+      "sha256_original": "6ffa31c4247eff24d23f989548de38be05494adba7caa24b74057b8ed214651c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/audit_scene_state.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/audit_scene_state.py",
+      "sha256_original": "6770539d84954b0e6681bf12eee8232a17e0e107218cb43c6eaadf51b97f03cd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/configured_vision_service.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/configured_vision_service.py",
+      "sha256_original": "c45f7ba2deb8246510464f5439d44d498177fe5b0fdbbbe28a79595b78d7311f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/continuous_visual.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/continuous_visual.py",
+      "sha256_original": "a117ace35ebb1e3122fef9b18fee0a06a82af03d238849090ac1f3c1e1aded3b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/convex_separation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/convex_separation.py",
+      "sha256_original": "eca096c664304d6a66eaa859337e60bd85c09ae547f762aa39217373290faaae",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/cooperative.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/cooperative.py",
+      "sha256_original": "079729b2d3c69d8ef45fb2e31714c4a452e9b130144cf8f3294954b338027dc4",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/cooperative_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/cooperative_audit.py",
+      "sha256_original": "7e9ae3cb6ceec81b7f87917947ce450e94ac0ed5d3433842f3b91f77c07a5526",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/d435i.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/d435i.py",
+      "sha256_original": "1d754b9e7b4543626218addd967e691c104ef1efebc53fcfc4a3b6bd5ea12c3a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/d435i_scene.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/d435i_scene.py",
+      "sha256_original": "a462a10b63701befb84aaeb0dd01dabae661af522566093f3db5d00a007a8185",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/d435i_validate.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/d435i_validate.py",
+      "sha256_original": "231b628ab30c37eb8969c9ecdcfb803bdcef2d8f5ad9154402b7407dd6f3ea28",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/dashboard.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/dashboard.py",
+      "sha256_original": "f8ed0cbe10b3517919606d4cbfe2e9085545483c9f18ba33673cc60266618589",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/diagnose_frozen_run.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/diagnose_frozen_run.py",
+      "sha256_original": "580c1fff118408e9474be6c92b206791e65705ffa361cdcfda367059470a7ffb",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/evaluate.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/evaluate.py",
+      "sha256_original": "1eb6defce501e2e4cf9fa5e370176276ff7b18f7bd69aceedc0b3f921ada145e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/evidence_ik.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/evidence_ik.py",
+      "sha256_original": "2ab7d7f0374c110f4ac292499e7414704b91d7e553f30cf6d5309ce945da0b63",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/evidence_view_focus.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/evidence_view_focus.py",
+      "sha256_original": "7eec2b48dc394a8e562d0e80463c17f6bf1f78b3d32285795473e4ff19cf3329",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/execution_freshness.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/execution_freshness.py",
+      "sha256_original": "d0543a0319cf7ec1914768b7a72a652c91863d166835cdd1476bd9f9cf60d54e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/formal_benchmark.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/formal_benchmark.py",
+      "sha256_original": "6a7cc19e23672a2b7657d17234878bd3be8c950e70365284885cd224d67431ea",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/formal_report.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/formal_report.py",
+      "sha256_original": "855b4b9b2f397611de54c406dc993bd6e9544097147ebdd447b6710b42a5dd6d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/formal_statistics.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/formal_statistics.py",
+      "sha256_original": "c2c2eff46463a120b5b4303e336cd77dfcbb201c1d3ab9a054e36094f7909124",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/free_evidence_probe.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/free_evidence_probe.py",
+      "sha256_original": "42fb636d7cc77c1fcd5ef71a17f11a21a34f83b76f7420d7e18816ab438401b1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/high_resolution_delivery.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/high_resolution_delivery.py",
+      "sha256_original": "ed9708af229cb2b107311802f72c308953e729b60f3cbc595e7c0ecb3513491e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/inertia_sensitivity.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/inertia_sensitivity.py",
+      "sha256_original": "acd278afb6d9a890f5d6f65d463870c79f71b0afab4b80c57bbf5688eda2d271",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/interface_mask_contract.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/interface_mask_contract.py",
+      "sha256_original": "b84bbb2e75a23b728f6050a01f1fdc72714c41c82c2eb361e70f4482574b5fd7",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/local_release_acceptance.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/local_release_acceptance.py",
+      "sha256_original": "0632d34f54fcb694e6fec06a9d754f571551e35bcc29f39e064d60a65576225f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/magnet.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/magnet.py",
+      "sha256_original": "c6a946b3cd93a40de3fef33cb7e00e26a6a9e12eed79507864e2f8db0a90a94b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/maintenance_tools.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/maintenance_tools.py",
+      "sha256_original": "6a6f15764a05b999e46f65e80c2b815666c33ec1c74c0fe08d458c425941aa10",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/map_maintenance.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/map_maintenance.py",
+      "sha256_original": "dc5cc6e3e54cb918903994ba38a5eeaaa19d05d0f81b126a73514792a89b6be8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/measured_payload.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/measured_payload.py",
+      "sha256_original": "85396b0a7a805a71ffe63440c33ee454856e848f4f2521e0d48348cd4f7cc3fa",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/measured_placement_selection.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/measured_placement_selection.py",
+      "sha256_original": "61f46986b9cef3b98cb1b9035c314520a782282bcaf7682832d376dd46f03a0c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/measured_surface.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/measured_surface.py",
+      "sha256_original": "613a8166426a9b5fc08f322948121c5b1b17ca235e85045580e64e197c826466",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/measured_task_memory.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/measured_task_memory.py",
+      "sha256_original": "3663b57100941100a2b9a4f06957bfb48665b26ad0f5a9b119ad28325c683d9e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/measured_transport_height.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/measured_transport_height.py",
+      "sha256_original": "5c0edcd5b27042019d966ac01bd246abc16919d26713f2b6b6da898f2ed83aac",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/measurement_clock.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/measurement_clock.py",
+      "sha256_original": "f0f0dd56d5dc128bf2af0001338901b06d071c52ba60efce30621d7af252b923",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/motion.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/motion.py",
+      "sha256_original": "39a81ac2604dc40cbac65b6e46be0ae09847f16e55319d7cca5936d1cbcad84e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/nonhardware_acceptance.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/nonhardware_acceptance.py",
+      "sha256_original": "36e9810740dc7f0b3bffdac6987312b6471d53793be7a80934e7dd52fe701fec",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/nonhardware_figures.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/nonhardware_figures.py",
+      "sha256_original": "837c1cd86aa8d23839b8de6da9f5debae0097e91bfa458da89b245522ea8c036",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/online_control.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/online_control.py",
+      "sha256_original": "591175a0fbc6f4ebf424dcddd84fc0eb7f7164cdac7bd0bb76d6ccd2ad1b11d6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/online_experiment.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/online_experiment.py",
+      "sha256_original": "113eafaad980a1f63a0893744282b92689fb657006e2ad1677dcf97189502237",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/online_scene.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/online_scene.py",
+      "sha256_original": "4f7b70e44c1235231c997a8e654a1a893bf8989b26bd23b69c17bcda332903a9",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/placement_vision.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/placement_vision.py",
+      "sha256_original": "d6b285950db79c963283020731c39aed913aec0b926b1d9f75f9bdd1397e6030",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/planning_snapshot_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/planning_snapshot_audit.py",
+      "sha256_original": "548acfb5afbdde6b9905d9b1b302dc25cd86e54404d97886618359a292a7285a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/postscan_delivery.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/postscan_delivery.py",
+      "sha256_original": "70623e5a1735827b5c5b443dbb32b8887c16c84b8903d60712e1422470f10e40",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/preview.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/preview.py",
+      "sha256_original": "701e9c9f7f97b1f0fae9f89f6740d7ed8ae3276de4be0c4494f7aa878fab7176",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/project_acceptance.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/project_acceptance.py",
+      "sha256_original": "20dcb3b907bef96416fa6ebcafec836eb23897ee5c977795d59013894f3d1b2e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/randomized_benchmark.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/randomized_benchmark.py",
+      "sha256_original": "eebe048b13cc63fa301051f54e170a4700f48eec242693f8787b4dafe06da470",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/ray_kernel.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/ray_kernel.py",
+      "sha256_original": "e22aa2758f484e185fe0438179422f961925accb52e49f818460ae439f5aabee",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/reaction.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/reaction.py",
+      "sha256_original": "e245727fffa1c826158b06920621428fd6d62f12645547b8f74e8bf75fcfc169",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/reaction_batch.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/reaction_batch.py",
+      "sha256_original": "45f0512b2c47e019887c95303af52fb8bd01082a424e9b23e5aaac111ad6346c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/reaction_feasibility.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/reaction_feasibility.py",
+      "sha256_original": "8393f391c4b62be64aa2e690e0f01c425fb1b607519af3013c2c1f576e200ef8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/reaction_feasibility_experiment.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/reaction_feasibility_experiment.py",
+      "sha256_original": "9bbe2bc5a6ad18b67960975251ec47eed3961cf706d434567392f0b5fe1f0bb3",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rejected_proposal_memory.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rejected_proposal_memory.py",
+      "sha256_original": "8928ee0af6f4b39535f5f6e9da5a6beac19baf5d11342217bc2162d429c47fd1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rescan_occlusion.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rescan_occlusion.py",
+      "sha256_original": "c3a66c2c771f370458f04c55a420a9e7de37cf5d910b56751b70147be7a82db1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/research_delivery.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/research_delivery.py",
+      "sha256_original": "b19ec9f905291c88cabf6da329a158dc0032aa9fe7a6ee674c897c656fb17b34",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/research_figures.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/research_figures.py",
+      "sha256_original": "ef89018b0eb66fe42423e91366d25287ce345dace605954563bb8dd84dafddbd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/residual_ppo.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/residual_ppo.py",
+      "sha256_original": "4bbd6b4d9b9b670f4abc3559ccfd78897cf67a8d86dcdc6efa9b01ca9461875f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_bootstrap.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_bootstrap.py",
+      "sha256_original": "72686b29b1e58270199d5e04df57bdc4937f56f90b1e36a292424ab85de08476",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_cabin_scene.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_cabin_scene.py",
+      "sha256_original": "83d1416afe7e001d11a8bf6019ea4107ab656c42ba59b656759af6e745b0bf7e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_cooperative.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_cooperative.py",
+      "sha256_original": "9e18c2cb9d4ba79fa1cc0337068b802f288f318f8cfe650efaa5a7315e3fe1d6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_dashboard.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_dashboard.py",
+      "sha256_original": "60e2c54fd0ad5b46c340c07e67dac5faae7a902f5e5057e90d4b40600ee2a29c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_environment_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_environment_audit.py",
+      "sha256_original": "87b64c5a9dd8ef6753611480bd19ae619844ed9fbd90f0f8bede927cc3f4620f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_evidence_ledger.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_evidence_ledger.py",
+      "sha256_original": "de5f7ec146a5aacd1a2f82417c74a2275e0bf76d1d43745a1a0baa6dd2fcf8db",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_execution_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_execution_audit.py",
+      "sha256_original": "32843e7b6582a07787677fde9535b47256eccbd130a7c4d2ce1f6d4f7a4686cd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_initial_scan.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_initial_scan.py",
+      "sha256_original": "37fc5be135e6fc271ae9a26a3ab37b0ea144ab85cf0cfd74a5a14c38b4acc052",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_local_resolution_probe.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_local_resolution_probe.py",
+      "sha256_original": "3072d1633566e3e8f239f188035862bd4032e9f67307a21c27e54a647e1c964b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_magnet_backend.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_magnet_backend.py",
+      "sha256_original": "4bb24b361f4ad363e561654140de1a4f21de793eb233b180f389848a1967e1bc",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_merge_recordings.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_merge_recordings.py",
+      "sha256_original": "2099011cc0e412cea2cdada002d6539530622ab167417d97518da31b19bf2b2c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_mission.py",
+      "sha256_original": "068c08f755c5867dfa84f8b0d11c31384033eb79022da4b701c80f72c247aad8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_mission_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_mission_audit.py",
+      "sha256_original": "3238298b93d93e7ece850dad2a76f71b8126ad1c061ead66512cda25d558de45",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_payload_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_payload_audit.py",
+      "sha256_original": "9e22c2987a49f6534fd44e94565a44205d0c745f611ff22d2308e0cf98cdaa62",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_random_workcell.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_random_workcell.py",
+      "sha256_original": "30691ac2895c4c37159eb0f5dd774424c98c64f76f2a617999b4a59f7fa8fa5b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_ready_search.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_ready_search.py",
+      "sha256_original": "2e2d6df69774644abfbca70635d3da699fb1153e8040c7eccdea5d8623f65bc7",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_recovery_diagnostic.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_recovery_diagnostic.py",
+      "sha256_original": "e3226bb8249c7f5ff0c7fe5734bbc905b0cfb3d35cb56add82f980631a908b19",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_residual_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_residual_mission.py",
+      "sha256_original": "33577a2a0a4ce0dcc79ddf6e9326bf3a3a772c5ffe58c59594c5d4f1c50e0f5f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_sensor_faults.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_sensor_faults.py",
+      "sha256_original": "98d4f29183587fe841dc3d31c44f7542b9fb1a86b38955b66537e617b3550a79",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_sensor_service.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_sensor_service.py",
+      "sha256_original": "01420ba7799ba86baa4eddaf2d95e4db80c5916bad0fdd9e59e59c1e5dcab16c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_transfer.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_transfer.py",
+      "sha256_original": "23241def247e3dcbe4f1eeac3251eee90d998423c7ee1c6c6a58196f2124dbcc",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_transfer_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_transfer_audit.py",
+      "sha256_original": "d75e0fccc9a95381c484138f4d196bbb92330d1d17d37b76613c54dc3d067b8f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rgbd_vlm_transfer.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rgbd_vlm_transfer.py",
+      "sha256_original": "0f562818e210b7aa03790dedc54a2f1cd8a4f786b7aeb6411e56897ec981a6f8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/rigid_measured_surface.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/rigid_measured_surface.py",
+      "sha256_original": "f61fe773efa8f02f56d8ed30216a412ed0c2e1df87b0d1556d9832cdcba6cdcc",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/robot_evidence_refinement.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/robot_evidence_refinement.py",
+      "sha256_original": "ad1a3dabd24c6434066f54c2282f38bc9155fa45ae2e0b8a4b3b569545c72ca2",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/robot_hull_cover.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/robot_hull_cover.py",
+      "sha256_original": "44d4f6df9c9b97d79e6bbfe0f64a153263b36d3ee9a2ad8d15815d18b0532c26",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/robot_only_geometry.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/robot_only_geometry.py",
+      "sha256_original": "cca11ca2983434d8e8ebf2de5dedc88664a61467c602b5ebafcda0317da77f3e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/run.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/run.py",
+      "sha256_original": "f3d0da5ffe2a174f3f9d798f72ac102fdef606b62d32e72455b80462403684db",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/scene.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/scene.py",
+      "sha256_original": "383291c798c6761b6863a5a157404e5359a850b10ecabd8c1f49e507d74b2502",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/sensor_stress_delivery.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/sensor_stress_delivery.py",
+      "sha256_original": "3825998ddaa786d9c8e551712c17c08225a07c629de83903f85f5ac9671c3422",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/separation_recovery_delivery.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/separation_recovery_delivery.py",
+      "sha256_original": "af8fc7aa734f5ebd4e71c8a161c501fe4ea8277efa30c1be269f5396adb528ac",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/simultaneous.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/simultaneous.py",
+      "sha256_original": "1601de25b6d20510d3a8f738202748011d746decb98b24687b5fb1039b8652ae",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/smooth_path.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/smooth_path.py",
+      "sha256_original": "97b80d7e1281ab7b2bbc14ddcb58a4fdb891a7c977d0e2c77b5287a212bd3bd0",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/source_freeze.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/source_freeze.py",
+      "sha256_original": "7000ac1d17fe198ff79bf19c46dfa22eabfba4c0bef3b052da6e412bcc8ad0d9",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/sufficiency_benchmark.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/sufficiency_benchmark.py",
+      "sha256_original": "81fced099138c8cbaa0b63c1864b149f82d48197e1d7ebae847943e71e642829",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/sufficiency_delivery.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/sufficiency_delivery.py",
+      "sha256_original": "d21acf5c523a6b0286722517bde1489d6c1361e779a5e8c6c9d65a915fda3e1a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/surface_accuracy_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/surface_accuracy_audit.py",
+      "sha256_original": "39d02df57a84f49ad392e80f2c710d29f71e125dcb2dc2c1164711fca0c0c052",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/telemetry.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/telemetry.py",
+      "sha256_original": "92662c80180bcdd5928a3a8fd4786fb2b3a5e47ab726c8906ccbfb4f4d32ccf5",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/temporal_evidence_map.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/temporal_evidence_map.py",
+      "sha256_original": "b1f245b2e78b203ae56a9967309447c0f656a6ff871d9540bc8638c98d6d2d45",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/temporal_postscan_delivery.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/temporal_postscan_delivery.py",
+      "sha256_original": "4846ecebf69ab2231e77aaf7c8ef752ef6a6fb3abfbc486e0be452d1f46ca387",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/transfer_map_capacity.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/transfer_map_capacity.py",
+      "sha256_original": "94054838ea951d6223af5bfddf7b0dfeafb275df8f58098ab73bcade2cf2758a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/vision.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/vision.py",
+      "sha256_original": "894c93bbb14c8c8b6d05cee04699d34420914eb5a6407e3b8c29ca6ae3c30e97",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/vision_service.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/vision_service.py",
+      "sha256_original": "8f26a8a2b1fcbb2c026bbcda58728bf77f510b2d2d0613ba0ce25032995654f7",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/visual_error_benchmark.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/visual_error_benchmark.py",
+      "sha256_original": "dee23442ab9b5776c9c2e54d22bb5c28b50ebed78a7e58906baa42db6f03c439",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/visual_sufficiency.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/visual_sufficiency.py",
+      "sha256_original": "7bc8104370cb8dda9f8e2d8086b147bb2915f0be39eaa46f5e608f9cfdfec98f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/vlm_local_worker.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/vlm_local_worker.py",
+      "sha256_original": "3f930000a2d3582fa227c38c0dde239a71b742b4e09eb5d2602be7dca8728b12",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/astronaut_delivery/vlm_task_contract.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/astronaut_delivery/vlm_task_contract.py",
+      "sha256_original": "7bd225dfdfbe30c07d323ec14a984b355bc7c5a28fbf026b0bbc043b032b5818",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/__init__.py",
+      "sha256_original": "3728de4464f385627ca157f23c913a239a1d85131619c0111d265591977e088a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/active_tsdf.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/active_tsdf.py",
+      "sha256_original": "64cc6867f5ffd4503cca7530782951362539ddbd599adad3ebf2ec035e997978",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/active_tsdf_experiment.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/active_tsdf_experiment.py",
+      "sha256_original": "6cd7b38fd879861deb7eef81d8b4b088017677185650cad869406761249cdaea",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/active_tsdf_servo.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/active_tsdf_servo.py",
+      "sha256_original": "b54357bc9c38eeabe910e2a15aa1abedabf3879bbb7b1507d7053f2805216a18",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/contact_corridor.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/contact_corridor.py",
+      "sha256_original": "f96b92da74d56278e5f406aa255f6461b3123045d9037fcd81992af2f5f03cea",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/contact_intersection.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/contact_intersection.py",
+      "sha256_original": "7759b562170745324b52720e9e33267f656d2fde12df25199c15b783cf529744",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/contact_query_grid.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/contact_query_grid.py",
+      "sha256_original": "96255fee0cc647e88d7a2a934212166997f1241e5bb481432e0b1753afa55ae3",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/euclidean_envelope.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/euclidean_envelope.py",
+      "sha256_original": "3160e11f149e74a177f74dffb49082b2701cd1b70881fd4280f03253a5f39b6d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/local_tool_guard.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/local_tool_guard.py",
+      "sha256_original": "a4cd74ac41bb9308c95336dce59ecd9ca3356dca1bf2cd85f8fd8a6522e2b4ea",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/measured_contact.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/measured_contact.py",
+      "sha256_original": "3aaf56c5cbbe0766b0af1735b4429bf52f11c4d03ab57f56c4668211e3e63c3b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/measured_object.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/measured_object.py",
+      "sha256_original": "76b36bc6bbf711522d1fd653444d59d28b19b3806af90ee69b847bfbe9338fd0",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/payload_contact_guard.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/payload_contact_guard.py",
+      "sha256_original": "8ec65fb485385e413222e88a23dffec1c843f9ae2f36cf50aacdd946a580c658",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/planning_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/planning_audit.py",
+      "sha256_original": "0405baff4c9f40295a876173292d82b47ee31c35d0942aeec04e310cc05d5e90",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/planning_map.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/planning_map.py",
+      "sha256_original": "e271afedf97d30e4f930d95dde4c24e66bf9748e026c3044bff493f9e8dd0777",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/refined_robot_guard.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/refined_robot_guard.py",
+      "sha256_original": "4e5dc9c115892417873f2c3f2be2a7b8123d18b63995fbb0caf94cb3e89b0cf3",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/render_planning_result.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/render_planning_result.py",
+      "sha256_original": "502b777a498bb4d7fec2cb120c7efcef7578cf710c7a84fc5a0f3471c862a5f6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/rgbd_guard.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/rgbd_guard.py",
+      "sha256_original": "218d27ab750f6b3f4a4dcf18ad23c945886c66c8c5306e7b27d2295fa1a37b04",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/rgbd_recording.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/rgbd_recording.py",
+      "sha256_original": "e88c549459619a90bda54d321bff4ecd71ad7fca85d926b955acbb7c6492f88c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/robot_query_snapshot.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/robot_query_snapshot.py",
+      "sha256_original": "7b0c92fde42b2b44ce7986afe6651c5eb54a3297c0e6c97e50cf844a1bf111a5",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/self_filter.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/self_filter.py",
+      "sha256_original": "0a5bd3b6563085eb42107ebc537ceb9906b00880bd010597a0a25b5cb877be83",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/classical_fusion/static_interval_snapshot.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/classical_fusion/static_interval_snapshot.py",
+      "sha256_original": "a5ac221e89259b145ed172cd87a3e3f6048f0792610356cc6a9aa1622f34d3fe",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/__init__.py",
+      "sha256_original": "8c45c6e669745714576be2344371afd5b47edfd18c7e34b4c405f1b52c0ed6a8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/cfm/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/cfm/__init__.py",
+      "sha256_original": "22db8f3e0dde83f2776246669581bf3ff73f477039729c6709d61f7c758c3fac",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/cfm/losses.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/cfm/losses.py",
+      "sha256_original": "b7a335c4cc2b33e8c773c8359c851fe6658b602b4a9032bf957296c92f2fabdb",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/cfm/model.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/cfm/model.py",
+      "sha256_original": "ea233ff39f69f31dbc48ccf5342237667544f1dfa53bda309267bd6dd38d8b6d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/cfm/rollout.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/cfm/rollout.py",
+      "sha256_original": "b602f47de8b8d093a45a7791dd3e54d784aadd314c3154790960936d1fbfb6f9",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/config.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/config.py",
+      "sha256_original": "d7413e61afc1250dec0c97e058c2e667ab92f0f2fa0ed7574b284d51f82f119f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/data/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/data/__init__.py",
+      "sha256_original": "9c06a5e62162f745afd16e801387cec70318cd0acda2b635583c24175c5aa6a1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/data/sequential_dataset.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/data/sequential_dataset.py",
+      "sha256_original": "82b8ebc7033629a6b9dad6879d9f87131578ade0eeccbd934c2934cb4960e910",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/perception/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/perception/__init__.py",
+      "sha256_original": "137337282627eb687d17545dc94d7ddd21f3d325699b1f2b82bbbe827e355645",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/perception/pointcloud.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/perception/pointcloud.py",
+      "sha256_original": "0ec2a2b972139f9d228162b34a8dc025a4fd42fbe241695741fa2bd49749d907",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/policy/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/policy/__init__.py",
+      "sha256_original": "c960052beb733861c75c7978d8ed5309941a318cfc89a946dbd71c368f891d27",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/policy/features.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/policy/features.py",
+      "sha256_original": "c304efc04217ac054025d8c969e33b44cd25e1c979773e974e9d563447ae0b4a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/policy/features_v4.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/policy/features_v4.py",
+      "sha256_original": "fa711e50df0cbafd5b6858028a18ac2a6b0663ca122868913e1e1654dd20ffbf",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/policy/rewards.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/policy/rewards.py",
+      "sha256_original": "70f7293c994fb88a2ca9d1e22b015dcffbed6f10ccf31471f849928a9cf18ef4",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/policy/rewards_v4.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/policy/rewards_v4.py",
+      "sha256_original": "c051ab59ad94603fe15265ea49e119a84bd00f46e7daa6fc849b3ab5b03a559c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/policy/rsl_rl_cfg.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/policy/rsl_rl_cfg.py",
+      "sha256_original": "65d3faad11bf9240b77e67e75ad9687573e18237ad9cf2bee74317a3fde94c0f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/tasks/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/tasks/__init__.py",
+      "sha256_original": "ecf6d241e18fe6275f75cb87a46d5c8d2289b39c00ba9a64f8bbbe971c37e3b8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/tasks/active_vision_env.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/tasks/active_vision_env.py",
+      "sha256_original": "eddbcd4eb495c496ce71525d6341f0735ef0822eee02e252b7d2fb8a95bb381a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/tasks/active_vision_v4_env.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/tasks/active_vision_v4_env.py",
+      "sha256_original": "df41fd9e7798a843eda7df8c7d374d001309846177201e807799928d5ebb6c47",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/tasks/layout.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/tasks/layout.py",
+      "sha256_original": "ad15a5c842b154aad66ffb57cd0f72857cb2d963b707e304736538c038870ca8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/tasks/scene.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/tasks/scene.py",
+      "sha256_original": "fcb88aabcf31b214c265b3ad5c314c31b6ef6ae1e0b33987a7d6211dccbbdf84",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/tasks/scene_constants.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/tasks/scene_constants.py",
+      "sha256_original": "8d4384395cdd8321586abed1d8a09e7e17bb747ca7223984be10ecba4a840383",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/tasks/shape_geometry.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/tasks/shape_geometry.py",
+      "sha256_original": "289a8da4b646187cd858a93f1e7884215268cdac9bf89c180e13868956bbd5ab",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/utils/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/utils/__init__.py",
+      "sha256_original": "9793f0bcab4321b5156ad18435a4fc585c46c5bca5b30e2f59bcda52e14b7c77",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/utils/checkpoint.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/utils/checkpoint.py",
+      "sha256_original": "6cafe064ac80af62f3325ecad82ccefff90e3641a91a48db747275f255eae068",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/utils/metrics.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/utils/metrics.py",
+      "sha256_original": "72b2d0146d4a536f6b7920342e2ceff7d7189f2600ec99c97838e524114a120c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/utils/seed.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/utils/seed.py",
+      "sha256_original": "18cd4d4bc7839c5889d15ad9dd310dce0dcd9036d4356cc3db6c0f7aae68634c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/world_model/__init__.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/world_model/__init__.py",
+      "sha256_original": "af13f9f86f38f68fe4aab2b043a74287da5b64c7d54b1209e099ae0c0e90d7bc",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/codex_zbot/world_model/model.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/codex_zbot/world_model/model.py",
+      "sha256_original": "cfee8169d8a50fa9ebd03938e03f9b07d21348c23fb2103784614ac5d8359d0f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/ablation_coverage_only.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/ablation_coverage_only.json",
+      "sha256_original": "ad54a7060974dfce5338cb863967d725a33a4303875f48670903b85f5ade3bb9",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/ablation_first_order.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/ablation_first_order.json",
+      "sha256_original": "23ae4af40041aeac0155e375c0507b0de3bef5d8551b2b533bda94b69847dccc",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/ablation_manifest.example.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/ablation_manifest.example.json",
+      "sha256_original": "324ffe6d5bc113ce692165398a800cbc567a6238beb583131cab76365790f60d",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/ablation_no_world_model.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/ablation_no_world_model.json",
+      "sha256_original": "21e313c43c2182d9669292e3bc059099682b72a549b2ddfaf55ef74a6b73482b",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/astronaut_delivery.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/astronaut_delivery.json",
+      "sha256_original": "f4a5eec5a4c57f7c20a40f673e6127c08a96b392649acaa463a60db708232269",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/base.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/base.json",
+      "sha256_original": "6e00a0388f9bbc828e7a72809f9a2acb569e20a8e5ebd5dc827cdc47fb2c2169",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/camera_512_f110_integer_pixels.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/camera_512_f110_integer_pixels.json",
+      "sha256_original": "807ef35a5a87b21ed77b25af9c46cbe77f658dcafea4c790c5f5cc2d6fc2b198",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/cooperative_delivery.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/cooperative_delivery.json",
+      "sha256_original": "502ce06ece604e4edda7720ea1741016c53bc5e6d4888432e810219c8662da36",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/d435i.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/d435i.json",
+      "sha256_original": "bbd98c9bb32841bd35886e1e2c9afeb9c5e2108c1e534bfaba971163e1b0e078",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/env_smoke.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/env_smoke.json",
+      "sha256_original": "da96dc3e8c126ad493c85344ba6add479d902460e3b567b9d70a0165a44fc23c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/formal_v1.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/formal_v1.json",
+      "sha256_original": "50b891ee488daf49b56c3e68d917403b4e2e1a398b47a06fe6ac5ccba6c6a509",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/formal_v4.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/formal_v4.json",
+      "sha256_original": "e04e0e6748167b2d0b593388237439e6c2a621d4813e3c933a7835cf1af7354c",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/online_coordination.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/online_coordination.json",
+      "sha256_original": "1c92c17cb66f8031dc74b7125ef829f28a59719a8e5ff61135d66b45e0eff996",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/retained_models.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/retained_models.json",
+      "sha256_original": "ecab846eeb3f8d7dd6e272c300b2b1b62bb908d3d9b72331babaf0db47cdcb72",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/rgbd_holdout_protocol.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/rgbd_holdout_protocol.json",
+      "sha256_original": "cee1eabd11d84a19042c65760f8ef7e01e5f441787c32134ed9e620928a51ffa",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/configs/smoke.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/configs/smoke.json",
+      "sha256_original": "d26a321a674f207d84e21cdaa00bfda40693fec239c22483108b1e5d30ab3163",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/analyze_rgbd_reaction_sharing.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/analyze_rgbd_reaction_sharing.py",
+      "sha256_original": "40101a3769ed37bcb3862cbde099d9d202713fa5bfd8a9714aa8876f3af02cf0",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/astronaut_kinematics.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/astronaut_kinematics.py",
+      "sha256_original": "90eaaa79525f73665f13dfdb2f330545d3200e1ffadff0939869cfcab5f01ca9",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/audit_camera_lens.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/audit_camera_lens.py",
+      "sha256_original": "fe237ef51567de3a503b46799d35fc14fb3a66efe01ed65a01fc2e59508cf9c4",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/audit_rgbd_feedback_replay.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/audit_rgbd_feedback_replay.py",
+      "sha256_original": "a480cd6a0f845bf951680d91e010500983d7521107033f44188fbfc5447b2f5a",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/audit_rgbd_inertia_sensitivity.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/audit_rgbd_inertia_sensitivity.py",
+      "sha256_original": "051a9813a3a846b5f21d8e2e9674b62bd3c6a7047215bcf01cce2c23fb8b456c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/audit_rgbd_marker_estimator.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/audit_rgbd_marker_estimator.py",
+      "sha256_original": "614b4fa7067f3bb4ae95514038a662e9e4d3505ffd1b8404c1d155b6f1c493ef",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/audit_rgbd_rendered_stress.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/audit_rgbd_rendered_stress.py",
+      "sha256_original": "58fd8a1c037ce4ff607d78793f87938345fa9961617dfdef771ca61de909dc4e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/audit_rgbd_wall_clock.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/audit_rgbd_wall_clock.py",
+      "sha256_original": "cc749a3355f75d6afa69176d52ee830398ceec6df1c93b68cc350d01744987c5",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/benchmark_rgbd_contact_query.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/benchmark_rgbd_contact_query.py",
+      "sha256_original": "5a37868f95578efa97d3bcf5de33852990d8bae5a7a64fd22695c41203919384",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/benchmark_rgbd_replay_cache.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/benchmark_rgbd_replay_cache.py",
+      "sha256_original": "1994b71c98d5132153a2fd831909cff88ee7f5e64c159804f33afcb6f44e1ea1",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/benchmark_rgbd_wrench_backend.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/benchmark_rgbd_wrench_backend.py",
+      "sha256_original": "d520a3155b50487547e07f35cae9a5bd75579ef7d7ed08484613328d443e1389",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/build_astronaut_dual_arm.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/build_astronaut_dual_arm.py",
+      "sha256_original": "5bbaf6b8fa462f2695559431b5be47f304c5a801729fa1717ab20841c251b3dc",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/capture_d435i_calibration.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/capture_d435i_calibration.py",
+      "sha256_original": "02cd2f7d06dde13f2730b853aef45be4c5c6112d252eaa1aed62a9139fc12a05",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/check_astronaut_isaacsim.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/check_astronaut_isaacsim.py",
+      "sha256_original": "859442530b0566dfad2ab95e4935ad445cde3eeb9ecc68cb080d695419938d95",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/check_delivery_isaacsim.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/check_delivery_isaacsim.py",
+      "sha256_original": "f6e4eff492b23e7425213670018e1a0d0e2f34f43e71735b3d722b0c0b6c99be",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/collect_on_policy.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/collect_on_policy.py",
+      "sha256_original": "b6c8777ce6535ef97b0e4af5186c4b4897bb8b6c0f645ae4858f24a35e4f9eaf",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/collect_on_policy_v4.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/collect_on_policy_v4.py",
+      "sha256_original": "f03d68803182b3eaf53dbb3b26d92a9640f2eb3cf6bc000e54c868e712a8bdc9",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/collect_sequences.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/collect_sequences.py",
+      "sha256_original": "01532430407e9ae091a2450769f33ed9631eccd4b36975d38bebdf688776c15d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/compare_rgbd_matched_runs.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/compare_rgbd_matched_runs.py",
+      "sha256_original": "92962def51868b1cd7cd6194dd3653ebbdef5b2c5b755b6d5c801a46c723507f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/create_smoke_checkpoints.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/create_smoke_checkpoints.py",
+      "sha256_original": "3fb1d99d0db652a7115791e372013ca30b8a7c3c84137e748c6b1b659394d24b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/create_synthetic_dataset.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/create_synthetic_dataset.py",
+      "sha256_original": "c59c760da7df74a268fbfdd1ffca79ec2b2beb65467f2d79a065ce2d709df08d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/evaluate_cfm.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/evaluate_cfm.py",
+      "sha256_original": "d78eb449ad37f1e1036a40f7a5ddf1cd88fe8b1289b242dfa47f09d44dcd880c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/evaluate_ppo.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/evaluate_ppo.py",
+      "sha256_original": "57723293c68076c73bd753d2fa1285d717215cb5966b54440bef085b6e92ead0",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/evaluate_ppo_v4.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/evaluate_ppo_v4.py",
+      "sha256_original": "3c1f9c9cca4dbb399045d85f492eb65e38d0e19e01fbb46871b425bf787c750c",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/inspect_arm_symmetry.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/inspect_arm_symmetry.py",
+      "sha256_original": "6d113df4ae8e90a76ea888b5b2933f9aebf40552873ec00a8e021ba485443185",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/inspect_astronaut_assets.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/inspect_astronaut_assets.py",
+      "sha256_original": "98c41bc42c89df3495f453b08f31bda6c76e26ce0838800966db07d4f86bb37d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/inspect_rgbd_visual_loss.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/inspect_rgbd_visual_loss.py",
+      "sha256_original": "f47dc5ebb1be0f429bee049bd186e1d837ee96541e85f0ae84fdcd5bb8548598",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/plot_rgbd_surface_comparison.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/plot_rgbd_surface_comparison.py",
+      "sha256_original": "049375911dcb7e06414a5088a7fb4c6a2bc71eb6729a2aca8a4f701e16bf7f7f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/pose_astronaut_work.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/pose_astronaut_work.py",
+      "sha256_original": "f23f1383e4cf0100067c7d551d4014b25e05b2ed2d0ccd445a3e9bf8fb37863b",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/preview_astronaut_dual_arm.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/preview_astronaut_dual_arm.py",
+      "sha256_original": "d2cb8464f3853819afd5a194f3026b458d93195e6716b1465e6a69e0374f5e1d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_delivery_sensor.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_delivery_sensor.py",
+      "sha256_original": "6232b3e423d5ade34aa151de49feb341e4aa4cea0ec3a2229d18ddf08f9b7328",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_delivery_transfer.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_delivery_transfer.py",
+      "sha256_original": "409392541bd31883505cefe7e78a015291614e56cffa802dcc657844a466d0b9",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_delivery_views.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_delivery_views.py",
+      "sha256_original": "601fcfb1b59aad95d8176a591a1c0f05cf74396bf744ee96e4948cc0451d9340",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_envelope_offset.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_envelope_offset.py",
+      "sha256_original": "5b698a85ab2cd0dee996dda726d990e59d229c34a1def635a4100f13e59719d7",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_handover.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_handover.py",
+      "sha256_original": "ffdec17e034afde75d8e49ec7c38032503381554344a25a184f81059d2d4a412",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_release_voxels.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_release_voxels.py",
+      "sha256_original": "8d688c4ff3f186a2bd8250b84fc60ba598dd387e9a340ee7c132444c88e1724d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_robot_refinement.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_robot_refinement.py",
+      "sha256_original": "2b334325af5933690da87374c02b0e1bc8f5628fb4173ac70a6d7d3571fd18b8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_stopped_pose.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_stopped_pose.py",
+      "sha256_original": "66f4474d1533c4bff39b195fe02230489c7e6cf08a1d8ff4388673602c7792d0",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_transport_yaw.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_transport_yaw.py",
+      "sha256_original": "3259d5339d882e16ee266ae966539fbb7711acc2aff08f800e0506920d6eefdd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_vertical_row.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_vertical_row.py",
+      "sha256_original": "dce76cba76aef5ca0d5cd45b57ff747c8bd908f322bf6a5062c7caa08c555dc2",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/probe_rgbd_view_rollback.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/probe_rgbd_view_rollback.py",
+      "sha256_original": "84e5f8b6c3ce9afb160521a2a2c9d8ae2895434185fd962752deecce36aa97a9",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/profile_delivery_guard.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/profile_delivery_guard.py",
+      "sha256_original": "9ed6878ada16a805e2956147089ae776407847641922b3e5a8556519a7bb85fc",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/read_astronaut_cad_reference.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/read_astronaut_cad_reference.py",
+      "sha256_original": "fafe133195e980f63becf2998af89d92e6849fbbe1ef50ec131307bebda51f08",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/report_rgbd_paired_evaluation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/report_rgbd_paired_evaluation.py",
+      "sha256_original": "fb16016215051d79626e6759b16e97d01d9db29f0f69ddb2b068de7245ac5dc6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/run_ablations.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/run_ablations.py",
+      "sha256_original": "7b9adfa55b79edb01726ff2fc945eee71e94e59c9e0d67643a23e5a800d9588f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/run_random_geometry_collection.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/run_random_geometry_collection.py",
+      "sha256_original": "75d5721fd9dddd88368bc163229937769227a5f15a9b9cdb2ea82506c0a99a15",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/run_rgbd_paired_evaluation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/run_rgbd_paired_evaluation.py",
+      "sha256_original": "2e7d5d40631a3805783cc2f0c23b357e94f6ec063d3d10c436bcaca44332fec6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/run_rgbd_paper_validation.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/run_rgbd_paper_validation.py",
+      "sha256_original": "dd7e19db82cb481d8199df957d0bb783a7da6969fb0c2da81c26d31cc04a8f81",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/run_rgbd_rendered_stress.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/run_rgbd_rendered_stress.py",
+      "sha256_original": "95747d54c778ef43cbe9389d802c8c8fbf23a9a81d1110092a257519a03f52fd",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/safety_audit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/safety_audit.py",
+      "sha256_original": "b5da32728e5e1281957796ebf6d305a050021b995c743d9e36bd52df4c8ad145",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/smoke_env.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/smoke_env.py",
+      "sha256_original": "2a85f0bcbd5af0ac89f94dd5f984df4973a866963b1608220084cbce75bc80d8",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/smoke_env_v4.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/smoke_env_v4.py",
+      "sha256_original": "71fd492048f121d187a03002d92612a98a886ec89fc41598cd6a0067ca91eb11",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/train_cfm.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/train_cfm.py",
+      "sha256_original": "7d9c4538f521905da8ac6f8aa0d825d3749bf21c5903f92232cc483e16ae2d26",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/train_joint.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/train_joint.py",
+      "sha256_original": "5d3fad249ac1fcaec1b19ec67df1a347ca5baaf774e1a3ca0d561a2edd0da25e",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/train_ppo.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/train_ppo.py",
+      "sha256_original": "8f9fd07dc9286a06f42a540972864d45f14bb67ef039089502906dcb09cf5907",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/train_ppo_v4.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/train_ppo_v4.py",
+      "sha256_original": "3dbd23c29e109c65ee0a81e8dc69c299dfe6d115b1d603bb8f3d6dbdf30e1b89",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/train_world_model.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/train_world_model.py",
+      "sha256_original": "9f4388db9bb9f99d86822a39ec15453af4000e3bd649497ca5f269ba6681dc63",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/validate_astronaut_dual_arm.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/validate_astronaut_dual_arm.py",
+      "sha256_original": "439b2a0e44aecc31b919af4fa1baa57007995f1bd74e88143c2b9922bd36e687",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/validate_dataset.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/validate_dataset.py",
+      "sha256_original": "ec97c7adc28eb3a9568da97fc6946f71aa35990837904367e214936df469192d",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime/scripts/verify_project_layout.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime/scripts/verify_project_layout.py",
+      "sha256_original": "db4ed4e5d95ed82c6434e8fc8de1dd9bdb2aa29b280f495a62f8fda93914bdb3",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/runtime_manifest.json",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/runtime_manifest.json",
+      "sha256_original": "437ab855b1b18c9134c24b78e05aab35e3a879446d32399fe968b87259bad962",
+      "role": "configuration_or_documentation"
+    },
+    {
+      "path": "flybrain_lab/setup_runtime.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/setup_runtime.py",
+      "sha256_original": "8abdc77b528dd90665d9cad53a194c5f7e1fa1e3e3ae4f3f51e5a1c7e5bdb636",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/test_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/test_circuit.py",
+      "sha256_original": "c533eeeecc7fc8443b9257962729dbb0b702fd4367445c00df2dd994c3ae93ff",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/test_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/test_curriculum.py",
+      "sha256_original": "7525285d8025754741542fd35bad30f4249845ded7046116cafd58d342c4ab1f",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/test_visual_input.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/test_visual_input.py",
+      "sha256_original": "e879042471e62d68540f21055998c8ebf08be328592ab496cf2faba7c4dce4ac",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/train.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/train.py",
+      "sha256_original": "8b32c82eef3abb288dc473bc0a7da3d248d1500ce096b59432a93b4a6e3ca6ec",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/train_curriculum.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/train_curriculum.py",
+      "sha256_original": "9bc8eeec5b42d25f7dccdc2d65f6be0d6430062d8f96f3d530be8ef936331aaf",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/train_visual.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/train_visual.py",
+      "sha256_original": "b6138ef03c77e0dd5503e9f90fd96dabac68f7f04d8edb7e15cce69490af6230",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/visual_circuit.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/visual_circuit.py",
+      "sha256_original": "3137db3d0fb1f326e70c42b3c1611829eaafc8c85de1a9f40e4f0ce7d8aa81a6",
+      "role": "primary"
+    },
+    {
+      "path": "flybrain_lab/visual_mission.py",
+      "source_project": "lun",
+      "source_path": "flybrain_lab/visual_mission.py",
+      "sha256_original": "7ac45e583d4206e687539b8354319b62954d38a1f3a2fdadff6ce89e4924faa1",
+      "role": "primary"
+    }
+  ],
+  "portability_edits": [
+    "flybrain_lab/runtime/scripts/build_astronaut_dual_arm.py",
+    "flybrain_lab/runtime/scripts/inspect_astronaut_assets.py",
+    "flybrain_lab/runtime/scripts/read_astronaut_cad_reference.py",
+    "flybrain_lab/runtime/scripts/run_random_geometry_collection.py"
+  ],
+  "note": "Source hashes refer to original files before export-only path edits. Generated publication files are additional."
+}

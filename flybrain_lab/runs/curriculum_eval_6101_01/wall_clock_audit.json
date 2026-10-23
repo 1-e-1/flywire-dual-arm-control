@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "violations": 1,
+  "first_violations": [
+    "no_executed_evidence"
+  ],
+  "paths_checked": 0,
+  "ticks_checked": 0,
+  "normal_ticks_checked": 0,
+  "braking_ticks_exempt_from_normal_freshness": 0,
+  "maximum_logged_normal_guidance_age_s": null,
+  "scope": "Recorded pre-execution and normal-tick exposure clocks; braking may outlast image freshness; not an external timestamp or full-stack deadline certificate",
+  "raw_records_checked": 2,
+  "raw_clock_or_hash_mismatches": [],
+  "source_unchanged_during_execution": true
+}

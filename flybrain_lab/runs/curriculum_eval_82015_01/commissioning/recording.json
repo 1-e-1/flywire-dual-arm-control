@@ -1,0 +1,40 @@
+{
+  "format": "rgbd-initial-map-v1",
+  "scene_token": "rgbd_random_82015",
+  "calibration_id": "660ece523b85804d9a24fc37be455e4dbcfe9b6a178be2e0bd4254e2488e05f1",
+  "records": [
+    {
+      "file": "rgbd_000.npz",
+      "sha256": "f93e64561e283feac4624896e26468eba8329c7ec8f323a8824e6395f41204fd"
+    },
+    {
+      "file": "rgbd_001.npz",
+      "sha256": "c2fc27ae6a6a7058c0bba1d2f7a425b35568dc28955750ee76715dc1a75bcf0b"
+    },
+    {
+      "file": "rgbd_002.npz",
+      "sha256": "0b5f965f2ffe1c3046b31859b47f9bd0814ca9f2a14237302e16d51cc82287c5"
+    },
+    {
+      "file": "rgbd_003.npz",
+      "sha256": "c003ca80eb6647cb7739a41bc81dbe8a8bdbd4bf927351a58bd292da76a79a4f"
+    },
+    {
+      "file": "rgbd_004.npz",
+      "sha256": "57368afbd3276845474bd91d66dc6094134a9f8fe92f8c7b1add90da2a4795ec"
+    },
+    {
+      "file": "rgbd_005.npz",
+      "sha256": "4fb821b28b691436b1f094b036b2a23be743bab20c545be4392f936fe37bf541"
+    },
+    {
+      "file": "rgbd_006.npz",
+      "sha256": "b15e88d321a827a457181176419a8db1fd8f90f803e7f2cd62b47d4aed853823"
+    },
+    {
+      "file": "rgbd_007.npz",
+      "sha256": "df1a51dfb66272f1bad781f536ab21aaf81edd854c41ea4b25436eddcd7e28aa"
+    }
+  ],
+  "note": "Raw stationary acquisition, not sufficient initial coverage. Reuse requires independently justified unchanged scene and matching calibration."
+}

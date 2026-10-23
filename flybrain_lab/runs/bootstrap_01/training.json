@@ -1,0 +1,24 @@
+{
+  "train_samples": 226,
+  "validation_samples": 107,
+  "validation_joint_rmse_rad": 0.0991005992816729,
+  "validation_zero_action_rmse_rad": 0.03919686643963,
+  "sources": [
+    {
+      "path": "D:\\work_space\\lunwen2\\reports\\rgbd_quality_handover_regression_6101_01\\paths.json",
+      "sha256": "8faf5be3ce6db570fe4b7b9b6076995a02b7cfcb64398529f5177360899b82ee"
+    },
+    {
+      "path": "D:\\work_space\\lunwen2\\reports\\rgbd_capacity_repair_82007_set_01\\paths.json",
+      "sha256": "7405ac1715b1566500eb05f0db6e86d3091e6564f987bf0494e635b2ac18a98a"
+    },
+    {
+      "path": "D:\\work_space\\lunwen2\\reports\\rgbd_quality_control_82015_off_01\\paths.json",
+      "sha256": "6c342956b4475fc1c3ceccfe3a8acfeac67823790fa4016f1aed695640450dca"
+    }
+  ],
+  "scope": "Offline teacher imitation only, not task success or reaction reduction; train 6101/82007, validate 82015",
+  "neurons": 138639,
+  "edges": 15091983,
+  "elapsed_s": 28.687525700006518
+}

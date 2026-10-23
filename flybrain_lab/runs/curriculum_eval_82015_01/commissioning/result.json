@@ -1,0 +1,344 @@
+{
+  "status": "ENVIRONMENT_GATE_ONLY_NOT_DELIVERY",
+  "completed": [],
+  "executed_motion": false,
+  "environment_authority": "RGBD_ONLY",
+  "environment_CAD_fallback": false,
+  "uses_renderer_instance_masks": false,
+  "uses_known_part_geometry": false,
+  "acquisition": "One stationary left-arm D435i initial condition; no multi-view teleportation or inherited CAD-controlled trajectory",
+  "initial_pose": "workspace_view",
+  "initial_right": "ready",
+  "initial_joints": [
+    [
+      -1.6150470437842568,
+      0.6824289448387961,
+      0.0049957006010767835,
+      -0.39876257343158517,
+      0.47423270868927725,
+      1.585774691624257,
+      -0.7666064818812797,
+      1.660522362376915
+    ],
+    [
+      1.6528285012383912,
+      -0.33595727017532134,
+      -0.11965319682626381,
+      -1.7198519027569612,
+      -0.44793662230027625,
+      -0.8010071526445782,
+      1.0200530538880357,
+      -2.016916129256058
+    ]
+  ],
+  "initial_recording": {
+    "frames": 732,
+    "scene_token": "rgbd_random_82015",
+    "calibration_id": "660ece523b85804d9a24fc37be455e4dbcfe9b6a178be2e0bd4254e2488e05f1",
+    "decoded_measurement_cache_hit": false,
+    "decoded_measurement_cache_retained": true,
+    "environment_source": "RAW_RGBD_ONLY",
+    "scene_unchanged_assumed": true,
+    "provenance_scope": "File integrity verified; acquisition authenticity/static-scene assumption requires independent commissioning evidence."
+  },
+  "initialization_scope": "Reset defines initial simulation state, not a certified startup motion; initial robot/body collision feasibility is not claimed by this environment-only diagnostic.",
+  "frames": 8,
+  "exposures": [
+    {
+      "file": "rgbd_000.npz",
+      "sha256": "f93e64561e283feac4624896e26468eba8329c7ec8f323a8824e6395f41204fd",
+      "stamp": 0.0,
+      "valid_depth_fraction": 0.8905463836477987
+    },
+    {
+      "file": "rgbd_001.npz",
+      "sha256": "c2fc27ae6a6a7058c0bba1d2f7a425b35568dc28955750ee76715dc1a75bcf0b",
+      "stamp": 0.03333333333333333,
+      "valid_depth_fraction": 0.8905562106918239
+    },
+    {
+      "file": "rgbd_002.npz",
+      "sha256": "0b5f965f2ffe1c3046b31859b47f9bd0814ca9f2a14237302e16d51cc82287c5",
+      "stamp": 0.06666666666666667,
+      "valid_depth_fraction": 0.8905144457547169
+    },
+    {
+      "file": "rgbd_003.npz",
+      "sha256": "c003ca80eb6647cb7739a41bc81dbe8a8bdbd4bf927351a58bd292da76a79a4f",
+      "stamp": 0.1,
+      "valid_depth_fraction": 0.8905119889937106
+    },
+    {
+      "file": "rgbd_004.npz",
+      "sha256": "57368afbd3276845474bd91d66dc6094134a9f8fe92f8c7b1add90da2a4795ec",
+      "stamp": 0.13333333333333333,
+      "valid_depth_fraction": 0.8904579402515723
+    },
+    {
+      "file": "rgbd_005.npz",
+      "sha256": "4fb821b28b691436b1f094b036b2a23be743bab20c545be4392f936fe37bf541",
+      "stamp": 0.16666666666666666,
+      "valid_depth_fraction": 0.8906176297169811
+    },
+    {
+      "file": "rgbd_006.npz",
+      "sha256": "b15e88d321a827a457181176419a8db1fd8f90f803e7f2cd62b47d4aed853823",
+      "stamp": 0.2,
+      "valid_depth_fraction": 0.8906299135220126
+    },
+    {
+      "file": "rgbd_007.npz",
+      "sha256": "df1a51dfb66272f1bad781f536ab21aaf81edd854c41ea4b25436eddcd7e28aa",
+      "stamp": 0.23333333333333334,
+      "valid_depth_fraction": 0.8903547562893082
+    }
+  ],
+  "independent_evidence_views": 224,
+  "free_fraction": 0.7753262222222222,
+  "candidate_count": 12,
+  "environment_certified_candidates": 12,
+  "combined_certified_candidates": 12,
+  "candidates": [
+    {
+      "side": 0,
+      "joint": 0,
+      "increment_rad": -0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 0,
+      "joint": 0,
+      "increment_rad": 0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 0,
+      "joint": 3,
+      "increment_rad": -0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 0,
+      "joint": 3,
+      "increment_rad": 0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 0,
+      "joint": 7,
+      "increment_rad": -0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 0,
+      "joint": 7,
+      "increment_rad": 0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 1,
+      "joint": 0,
+      "increment_rad": -0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 712,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 1,
+      "joint": 0,
+      "increment_rad": 0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 929,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 1,
+      "joint": 3,
+      "increment_rad": -0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 791,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 1,
+      "joint": 3,
+      "increment_rad": 0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 727,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 1,
+      "joint": 7,
+      "increment_rad": -0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    },
+    {
+      "side": 1,
+      "joint": 7,
+      "increment_rad": 0.01,
+      "robot_geometry_certified": true,
+      "combined_allowed": true,
+      "unknown_voxel_tests": 711,
+      "rejection_diagnostic": null,
+      "allowed": true,
+      "reason": "measured_free",
+      "boxes": 3,
+      "minimum_slack_m": 0.0,
+      "revision": 1480,
+      "scope": "RGBD_MEASURED_FREE_SPACE_ONLY"
+    }
+  ],
+  "initial_observability": [
+    {
+      "side": 0,
+      "cover_spheres": 98,
+      "centers_behind_camera": 53,
+      "centers_below_minimum_depth": 45,
+      "one_view_sphere_centers_admissible": 90
+    },
+    {
+      "side": 1,
+      "cover_spheres": 97,
+      "centers_behind_camera": 0,
+      "centers_below_minimum_depth": 0,
+      "one_view_sphere_centers_admissible": 83
+    }
+  ],
+  "map_config": {
+    "workspace_min": [
+      -0.5,
+      -0.9,
+      0.3
+    ],
+    "workspace_max": [
+      1.3,
+      0.9,
+      1.9
+    ],
+    "voxel_size_m": 0.008,
+    "truncation_m": 0.024,
+    "min_depth_m": 0.08,
+    "max_depth_m": 2.0,
+    "max_weight": 32.0,
+    "depth_edge_m": 0.025,
+    "surface_min_weight": 1.0,
+    "view_grid_stride": 5,
+    "view_image_size": 64,
+    "motion_cost": 0.01,
+    "camera_clearance_m": 0.4,
+    "unknown_exploration_weight": 0.15,
+    "robust_delta_m": 0.006,
+    "depth_error_bound_m": 0.008,
+    "evidence_max_depth_m": 4.0,
+    "extrinsic_translation_bound_m": 0.003,
+    "extrinsic_rotation_bound_rad": 0.003490658503988659,
+    "intrinsic_pixel_bound": 1.0,
+    "free_patch_radius_px": 8,
+    "minimum_free_views": 2,
+    "independent_view_translation_m": 0.04,
+    "independent_view_rotation_rad": 0.08726646259971647,
+    "planning_margin_m": 0.005,
+    "snapshot_max_age_s": 30.0
+  },
+  "remaining": "Full-arm measured initial clearance, measured payload/contact envelopes, online planning integration and complete delivery remain required. Robot-only self/inter-arm checks are implemented; the astronaut is checked as measured environment. No motion is executed by this commissioning diagnostic.",
+  "reason": "A loaded initial recording is not automatically sufficient coverage. Every robot link and its swept margin must be supported by current free-space evidence; missing returns and unknown cells never become free by assumption.",
+  "source_sha256": {
+    "classical_fusion/rgbd_guard.py": "218d27ab750f6b3f4a4dcf18ad23c945886c66c8c5306e7b27d2295fa1a37b04",
+    "classical_fusion/rgbd_recording.py": "e88c549459619a90bda54d321bff4ecd71ad7fca85d926b955acbb7c6492f88c",
+    "astronaut_delivery/rgbd_bootstrap.py": "72686b29b1e58270199d5e04df57bdc4937f56f90b1e36a292424ab85de08476",
+    "astronaut_delivery/research_delivery.py": "b19ec9f905291c88cabf6da329a158dc0032aa9fe7a6ee674c897c656fb17b34",
+    "astronaut_delivery/robot_only_geometry.py": "cca11ca2983434d8e8ebf2de5dedc88664a61467c602b5ebafcda0317da77f3e"
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "status": "complete",
+  "phase": "finished",
+  "episodes": [
+    {
+      "seed": 6101,
+      "status": "STOPPED",
+      "error": "no_certified_operational_view_acquisition",
+      "completed": [],
+      "mission_audit": {
+        "scope": "Post-execution actual simulation geometry/count only; never passed to planner",
+        "actual_scene_object_count": 2,
+        "actual_scene_objects": [
+          "washer",
+          "bracket"
+        ],
+        "objects": [],
+        "paths": [],
+        "all_continuous_geometry_passed": false,
+        "terminal_C2_rest": false,
+        "all_logged_wrenches_checked": true,
+        "wrench_samples_checked": 0,
+        "maximum_logged_wrench_reference_error": null,
+        "wrench_crosscheck_passed": false,
+        "audited_released_and_retreated_objects": [],
+        "scene_all_objects_delivered_audited": false,
+        "controller_observed_queue_exhausted": false,
+        "limitations": [
+          "Simulation collision solids, not hardware metrology",
+          "External contact impulses and excluded inertias remain excluded",
+          "Queue exhaustion alone is not actual scene completion"
+        ]
+      },
+      "visual_input": {
+        "frames": [
+          {
+            "packet_id": 1,
+            "stamp": 0.0,
+            "shape": [
+              480,
+              848
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.06913000000349712
+          },
+          {
+            "packet_id": 2,
+            "stamp": 0.0,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.036408900006790645
+          }
+        ],
+        "initial_scan_neural_frames": 732,
+        "commissioning_neural_frames": 8,
+        "total_neural_frames": 742,
+        "accepted_frames": 2,
+        "scope": "Every frame accepted by controller; sensor latest-frame transport may drop frames before delivery; no point-cloud encoder"
+      },
+      "clock_audit": {
+        "passed": false,
+        "violations": 1,
+        "first_violations": [
+          "no_executed_evidence"
+        ],
+        "paths_checked": 0,
+        "ticks_checked": 0,
+        "normal_ticks_checked": 0,
+        "braking_ticks_exempt_from_normal_freshness": 0,
+        "maximum_logged_normal_guidance_age_s": null,
+        "scope": "Recorded pre-execution and normal-tick exposure clocks; braking may outlast image freshness; not an external timestamp or full-stack deadline certificate",
+        "raw_records_checked": 2,
+        "raw_clock_or_hash_mismatches": [],
+        "source_unchanged_during_execution": true
+      }
+    },
+    {
+      "seed": 82015,
+      "status": "STOPPED",
+      "error": "no_certified_flywire_action",
+      "completed": [],
+      "mission_audit": {
+        "scope": "Post-execution actual simulation geometry/count only; never passed to planner",
+        "actual_scene_object_count": 2,
+        "actual_scene_objects": [
+          "bolt",
+          "washer"
+        ],
+        "objects": [],
+        "paths": [
+          {
+            "time_s": 0.0,
+            "phase": "approach",
+            "payload": null,
+            "allowed": true
+          },
+          {
+            "time_s": 1.2,
+            "phase": "approach",
+            "payload": null,
+            "allowed": true
+          }
+        ],
+        "all_continuous_geometry_passed": true,
+        "terminal_C2_rest": true,
+        "all_logged_wrenches_checked": true,
+        "wrench_samples_checked": 144,
+        "maximum_logged_wrench_reference_error": 5.068129869528759e-07,
+        "wrench_crosscheck_passed": true,
+        "audited_released_and_retreated_objects": [],
+        "scene_all_objects_delivered_audited": false,
+        "controller_observed_queue_exhausted": false,
+        "limitations": [
+          "Simulation collision solids, not hardware metrology",
+          "External contact impulses and excluded inertias remain excluded",
+          "Queue exhaustion alone is not actual scene completion"
+        ]
+      },
+      "visual_input": {
+        "frames": [
+          {
+            "packet_id": 1,
+            "stamp": 0.0,
+            "shape": [
+              480,
+              848
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.056522300001233816
+          },
+          {
+            "packet_id": 2,
+            "stamp": 0.0,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03710809999029152
+          },
+          {
+            "packet_id": 3,
+            "stamp": 0.0,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.04088919999776408
+          },
+          {
+            "packet_id": 4,
+            "stamp": 0.0,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.0439263000007486
+          },
+          {
+            "packet_id": 5,
+            "stamp": 0.06666666666666667,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03336929999932181
+          },
+          {
+            "packet_id": 6,
+            "stamp": 0.13333333333333333,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03663379998761229
+          },
+          {
+            "packet_id": 7,
+            "stamp": 0.19999999999999998,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03576539999630768
+          },
+          {
+            "packet_id": 8,
+            "stamp": 0.26666666666666666,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03717090000282042
+          },
+          {
+            "packet_id": 9,
+            "stamp": 0.3333333333333333,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03837510000448674
+          },
+          {
+            "packet_id": 10,
+            "stamp": 0.39999999999999997,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.042913400000543334
+          },
+          {
+            "packet_id": 11,
+            "stamp": 0.4666666666666666,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03980050000245683
+          },
+          {
+            "packet_id": 12,
+            "stamp": 0.5333333333333333,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.04317360000277404
+          },
+          {
+            "packet_id": 13,
+            "stamp": 0.6000000000000002,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03260920000320766
+          },
+          {
+            "packet_id": 14,
+            "stamp": 0.6666666666666671,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.04392270000244025
+          },
+          {
+            "packet_id": 15,
+            "stamp": 0.733333333333334,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.030985799996415153
+          },
+          {
+            "packet_id": 16,
+            "stamp": 0.8000000000000008,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03718230000231415
+          },
+          {
+            "packet_id": 17,
+            "stamp": 0.8666666666666677,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.04607159999432042
+          },
+          {
+            "packet_id": 18,
+            "stamp": 0.9333333333333346,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.043361800009734
+          },
+          {
+            "packet_id": 19,
+            "stamp": 1.0000000000000013,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.04122889999416657
+          },
+          {
+            "packet_id": 20,
+            "stamp": 1.0666666666666678,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.04748160000599455
+          },
+          {
+            "packet_id": 21,
+            "stamp": 1.1333333333333342,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.0415324000059627
+          },
+          {
+            "packet_id": 23,
+            "stamp": 1.2,
+            "shape": [
+              480,
+              848
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.05541459999221843
+          },
+          {
+            "packet_id": 24,
+            "stamp": 1.2,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.044260599999688566
+          },
+          {
+            "packet_id": 25,
+            "stamp": 1.2,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.044247499987250194
+          },
+          {
+            "packet_id": 26,
+            "stamp": 1.2666666666666664,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.037212499999441206
+          },
+          {
+            "packet_id": 27,
+            "stamp": 1.3333333333333328,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.032004299995605834
+          },
+          {
+            "packet_id": 28,
+            "stamp": 1.3999999999999992,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03599439999379683
+          },
+          {
+            "packet_id": 29,
+            "stamp": 1.4666666666666657,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.036330499991890974
+          },
+          {
+            "packet_id": 30,
+            "stamp": 1.533333333333332,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03289859999495093
+          },
+          {
+            "packet_id": 31,
+            "stamp": 1.5999999999999985,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03426599998783786
+          },
+          {
+            "packet_id": 32,
+            "stamp": 1.666666666666665,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03688150001107715
+          },
+          {
+            "packet_id": 33,
+            "stamp": 1.7333333333333314,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.042088000001967885
+          },
+          {
+            "packet_id": 34,
+            "stamp": 1.7999999999999978,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.038730100000975654
+          },
+          {
+            "packet_id": 35,
+            "stamp": 1.8666666666666643,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.042933900011121295
+          },
+          {
+            "packet_id": 36,
+            "stamp": 1.9333333333333307,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03282219999528024
+          },
+          {
+            "packet_id": 37,
+            "stamp": 1.9999999999999971,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03334619999805
+          },
+          {
+            "packet_id": 38,
+            "stamp": 2.0666666666666638,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03820520000590477
+          },
+          {
+            "packet_id": 39,
+            "stamp": 2.13333333333333,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.042352599994046614
+          },
+          {
+            "packet_id": 40,
+            "stamp": 2.1999999999999966,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03424850000010338
+          },
+          {
+            "packet_id": 41,
+            "stamp": 2.266666666666663,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03701379999984056
+          },
+          {
+            "packet_id": 42,
+            "stamp": 2.3333333333333295,
+            "shape": [
+              160,
+              160
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.03442979999817908
+          },
+          {
+            "packet_id": 44,
+            "stamp": 2.399999999999995,
+            "shape": [
+              480,
+              848
+            ],
+            "neurally_ingested": true,
+            "wall_s": 0.06477450000238605
+          }
+        ],
+        "initial_scan_neural_frames": 732,
+        "commissioning_neural_frames": 8,
+        "total_neural_frames": 782,
+        "accepted_frames": 42,
+        "scope": "Every frame accepted by controller; sensor latest-frame transport may drop frames before delivery; no point-cloud encoder"
+      },
+      "clock_audit": {
+        "passed": true,
+        "violations": 0,
+        "first_violations": [],
+        "paths_checked": 2,
+        "ticks_checked": 144,
+        "normal_ticks_checked": 144,
+        "braking_ticks_exempt_from_normal_freshness": 0,
+        "maximum_logged_normal_guidance_age_s": 0.189327999993111,
+        "scope": "Recorded pre-execution and normal-tick exposure clocks; braking may outlast image freshness; not an external timestamp or full-stack deadline certificate",
+        "raw_records_checked": 42,
+        "raw_clock_or_hash_mismatches": [],
+        "source_unchanged_during_execution": true
+      }
+    }
+  ],
+  "scope": "Development curriculum, no holdout claim",
+  "training": {
+    "processed_frames": 9075,
+    "train_acquisition_samples": 805,
+    "train_travel_samples": 220,
+    "validation_acquisition_samples": 314,
+    "validation_travel_samples": 104,
+    "updates": 1000,
+    "selected": {
+      "epoch": 200,
+      "invalid_validation_views": 183,
+      "restored": 100,
+      "already_valid": 131,
+      "valid_preserved": 120,
+      "joint_rmse_rad": 0.022630778897587116
+    },
+    "candidates": [
+      {
+        "epoch": 0,
+        "invalid_validation_views": 183,
+        "restored": 36,
+        "already_valid": 131,
+        "valid_preserved": 107,
+        "joint_rmse_rad": 0.02124870997631807
+      },
+      {
+        "epoch": 200,
+        "invalid_validation_views": 183,
+        "restored": 100,
+        "already_valid": 131,
+        "valid_preserved": 120,
+        "joint_rmse_rad": 0.022630778897587116
+      },
+      {
+        "epoch": 400,
+        "invalid_validation_views": 183,
+        "restored": 95,
+        "already_valid": 131,
+        "valid_preserved": 118,
+        "joint_rmse_rad": 0.02424219120239846
+      },
+      {
+        "epoch": 600,
+        "invalid_validation_views": 183,
+        "restored": 89,
+        "already_valid": 131,
+        "valid_preserved": 113,
+        "joint_rmse_rad": 0.027188317479262012
+      },
+      {
+        "epoch": 800,
+        "invalid_validation_views": 183,
+        "restored": 71,
+        "already_valid": 131,
+        "valid_preserved": 101,
+        "joint_rmse_rad": 0.030923552707267443
+      },
+      {
+        "epoch": 1000,
+        "invalid_validation_views": 183,
+        "restored": 56,
+        "already_valid": 131,
+        "valid_preserved": 111,
+        "joint_rmse_rad": 0.027719386374646375
+      }
+    ],
+    "sources": [
+      {
+        "run": "reports/rgbd_quality_handover_regression_6101_01",
+        "observations_sha256": "d44c7e2da01d3b41232ef3a5b213c88c14655f44f69d741bde6d91cfceff4851"
+      },
+      {
+        "run": "reports/rgbd_capacity_repair_82007_set_01",
+        "observations_sha256": "a1ae144ec0cb05567defd6bb215af45e881d02359e1fc7086591e70a47528eda"
+      },
+      {
+        "run": "reports/rgbd_quality_control_82015_off_01",
+        "observations_sha256": "4edbb56fec60e7b9c64db138d66af9cb12b58e8016470c5c0c516b37aff9b4b6"
+      }
+    ],
+    "elapsed_s": 561.373582699991,
+    "scope": "Real measured-frame curriculum; view endpoint proxy validation, NOT collision certificate or full-task success; no online teacher fallback"
+  },
+  "active_seed": 82015
+}

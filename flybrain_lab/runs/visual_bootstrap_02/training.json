@@ -1,0 +1,50 @@
+{
+  "train_samples": 227,
+  "validation_samples": 107,
+  "processed_frames": 6879,
+  "sources": [
+    {
+      "run": "reports/rgbd_quality_handover_regression_6101_01",
+      "observation_manifest_sha256": "d44c7e2da01d3b41232ef3a5b213c88c14655f44f69d741bde6d91cfceff4851",
+      "path_manifest_sha256": "8faf5be3ce6db570fe4b7b9b6076995a02b7cfcb64398529f5177360899b82ee",
+      "frames": 2310
+    },
+    {
+      "run": "reports/rgbd_capacity_repair_82007_set_01",
+      "observation_manifest_sha256": "a1ae144ec0cb05567defd6bb215af45e881d02359e1fc7086591e70a47528eda",
+      "path_manifest_sha256": "7405ac1715b1566500eb05f0db6e86d3091e6564f987bf0494e635b2ac18a98a",
+      "frames": 2401
+    },
+    {
+      "run": "reports/rgbd_quality_control_82015_off_01",
+      "observation_manifest_sha256": "4edbb56fec60e7b9c64db138d66af9cb12b58e8016470c5c0c516b37aff9b4b6",
+      "path_manifest_sha256": "6c342956b4475fc1c3ceccfe3a8acfeac67823790fa4016f1aed695640450dca",
+      "frames": 2144
+    }
+  ],
+  "candidates": [
+    {
+      "ridge": 10.0,
+      "validation_joint_rmse_rad": 0.06426799229830003
+    },
+    {
+      "ridge": 100.0,
+      "validation_joint_rmse_rad": 0.05234862574790732
+    },
+    {
+      "ridge": 1000.0,
+      "validation_joint_rmse_rad": 0.042606037674069536
+    },
+    {
+      "ridge": 10000.0,
+      "validation_joint_rmse_rad": 0.0375697104389005
+    }
+  ],
+  "selected": {
+    "ridge": 10000.0,
+    "validation_joint_rmse_rad": 0.0375697104389005
+  },
+  "zero_action_validation_rmse_rad": 0.03919686643963,
+  "scope": "Validation used for ridge selection, not heldout; imitation bootstrap only; reaction reduction unproven",
+  "elapsed_s": 262.4506568999932
+}

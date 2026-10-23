@@ -1,0 +1,50 @@
+{
+  "vertices": 118258,
+  "triangles": 231710,
+  "valid_differentials": 113215,
+  "config": {
+    "workspace_min": [
+      -0.5,
+      -0.9,
+      0.3
+    ],
+    "workspace_max": [
+      1.3,
+      0.9,
+      1.9
+    ],
+    "voxel_size_m": 0.008,
+    "truncation_m": 0.024,
+    "min_depth_m": 0.08,
+    "max_depth_m": 2.0,
+    "max_weight": 32.0,
+    "depth_edge_m": 0.025,
+    "surface_min_weight": 1.0,
+    "view_grid_stride": 5,
+    "view_image_size": 64,
+    "motion_cost": 0.01,
+    "camera_clearance_m": 0.4,
+    "unknown_exploration_weight": 0.15,
+    "robust_delta_m": 0.006,
+    "depth_error_bound_m": 0.008,
+    "evidence_max_depth_m": 4.0,
+    "extrinsic_translation_bound_m": 0.003,
+    "extrinsic_rotation_bound_rad": 0.003490658503988659,
+    "intrinsic_pixel_bound": 1.0,
+    "free_patch_radius_px": 8,
+    "minimum_free_views": 2,
+    "independent_view_translation_m": 0.04,
+    "independent_view_rotation_rad": 0.08726646259971647,
+    "planning_margin_m": 0.005,
+    "snapshot_max_age_s": 30.0
+  },
+  "independent_evidence_views": 227,
+  "maximum_evidence_views": 252,
+  "revision": 1492,
+  "scope": "Observed open TSDF surface, not completed objects or watertight collision solid",
+  "differential_units": {
+    "gradient": "dimensionless",
+    "hessian": "1/m",
+    "mean_curvature": "1/m"
+  }
+}

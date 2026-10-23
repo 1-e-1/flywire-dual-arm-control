@@ -1,0 +1,429 @@
+{
+  "frames": [
+    {
+      "packet_id": 1,
+      "stamp": 0.0,
+      "shape": [
+        480,
+        848
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.056522300001233816
+    },
+    {
+      "packet_id": 2,
+      "stamp": 0.0,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03710809999029152
+    },
+    {
+      "packet_id": 3,
+      "stamp": 0.0,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.04088919999776408
+    },
+    {
+      "packet_id": 4,
+      "stamp": 0.0,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.0439263000007486
+    },
+    {
+      "packet_id": 5,
+      "stamp": 0.06666666666666667,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03336929999932181
+    },
+    {
+      "packet_id": 6,
+      "stamp": 0.13333333333333333,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03663379998761229
+    },
+    {
+      "packet_id": 7,
+      "stamp": 0.19999999999999998,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03576539999630768
+    },
+    {
+      "packet_id": 8,
+      "stamp": 0.26666666666666666,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03717090000282042
+    },
+    {
+      "packet_id": 9,
+      "stamp": 0.3333333333333333,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03837510000448674
+    },
+    {
+      "packet_id": 10,
+      "stamp": 0.39999999999999997,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.042913400000543334
+    },
+    {
+      "packet_id": 11,
+      "stamp": 0.4666666666666666,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03980050000245683
+    },
+    {
+      "packet_id": 12,
+      "stamp": 0.5333333333333333,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.04317360000277404
+    },
+    {
+      "packet_id": 13,
+      "stamp": 0.6000000000000002,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03260920000320766
+    },
+    {
+      "packet_id": 14,
+      "stamp": 0.6666666666666671,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.04392270000244025
+    },
+    {
+      "packet_id": 15,
+      "stamp": 0.733333333333334,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.030985799996415153
+    },
+    {
+      "packet_id": 16,
+      "stamp": 0.8000000000000008,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03718230000231415
+    },
+    {
+      "packet_id": 17,
+      "stamp": 0.8666666666666677,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.04607159999432042
+    },
+    {
+      "packet_id": 18,
+      "stamp": 0.9333333333333346,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.043361800009734
+    },
+    {
+      "packet_id": 19,
+      "stamp": 1.0000000000000013,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.04122889999416657
+    },
+    {
+      "packet_id": 20,
+      "stamp": 1.0666666666666678,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.04748160000599455
+    },
+    {
+      "packet_id": 21,
+      "stamp": 1.1333333333333342,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.0415324000059627
+    },
+    {
+      "packet_id": 23,
+      "stamp": 1.2,
+      "shape": [
+        480,
+        848
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.05541459999221843
+    },
+    {
+      "packet_id": 24,
+      "stamp": 1.2,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.044260599999688566
+    },
+    {
+      "packet_id": 25,
+      "stamp": 1.2,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.044247499987250194
+    },
+    {
+      "packet_id": 26,
+      "stamp": 1.2666666666666664,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.037212499999441206
+    },
+    {
+      "packet_id": 27,
+      "stamp": 1.3333333333333328,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.032004299995605834
+    },
+    {
+      "packet_id": 28,
+      "stamp": 1.3999999999999992,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03599439999379683
+    },
+    {
+      "packet_id": 29,
+      "stamp": 1.4666666666666657,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.036330499991890974
+    },
+    {
+      "packet_id": 30,
+      "stamp": 1.533333333333332,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03289859999495093
+    },
+    {
+      "packet_id": 31,
+      "stamp": 1.5999999999999985,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03426599998783786
+    },
+    {
+      "packet_id": 32,
+      "stamp": 1.666666666666665,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03688150001107715
+    },
+    {
+      "packet_id": 33,
+      "stamp": 1.7333333333333314,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.042088000001967885
+    },
+    {
+      "packet_id": 34,
+      "stamp": 1.7999999999999978,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.038730100000975654
+    },
+    {
+      "packet_id": 35,
+      "stamp": 1.8666666666666643,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.042933900011121295
+    },
+    {
+      "packet_id": 36,
+      "stamp": 1.9333333333333307,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03282219999528024
+    },
+    {
+      "packet_id": 37,
+      "stamp": 1.9999999999999971,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03334619999805
+    },
+    {
+      "packet_id": 38,
+      "stamp": 2.0666666666666638,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03820520000590477
+    },
+    {
+      "packet_id": 39,
+      "stamp": 2.13333333333333,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.042352599994046614
+    },
+    {
+      "packet_id": 40,
+      "stamp": 2.1999999999999966,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03424850000010338
+    },
+    {
+      "packet_id": 41,
+      "stamp": 2.266666666666663,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03701379999984056
+    },
+    {
+      "packet_id": 42,
+      "stamp": 2.3333333333333295,
+      "shape": [
+        160,
+        160
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.03442979999817908
+    },
+    {
+      "packet_id": 44,
+      "stamp": 2.399999999999995,
+      "shape": [
+        480,
+        848
+      ],
+      "neurally_ingested": true,
+      "wall_s": 0.06477450000238605
+    }
+  ],
+  "initial_scan_neural_frames": 732,
+  "commissioning_neural_frames": 8,
+  "total_neural_frames": 782,
+  "accepted_frames": 42,
+  "scope": "Every frame accepted by controller; sensor latest-frame transport may drop frames before delivery; no point-cloud encoder"
+}
